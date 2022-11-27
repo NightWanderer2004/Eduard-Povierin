@@ -1,0 +1,9 @@
+.about {
+   @apply mt-[320px];
+}
+.about .title span {
+   @apply italic text-5xl;
+}
+.about .info {
+   @apply text-brown text-[22px] px-2;
+}
