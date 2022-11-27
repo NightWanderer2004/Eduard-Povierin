@@ -1,21 +1,21 @@
 {
-  "name": "portfolio",
-  "scripts": {
-    "dev": "concurrently --kill-others \"npm run serve\" \"npm run css\"",
-    "serve": "eleventy --serve",
-    "css": "postcss ./src/styles/index.css -o ./dist/index.css -w",
-    "build": "rm -rf dist && eleventy && postcss ./src/styles/index.css -o ./dist/index.css"
-  },
-  "author": "NightWandeder2004",
-  "license": "ISC",
-  "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "autoprefixer": "^10.4.7",
-    "concurrently": "^7.2.0",
-    "dotenv": "^16.0.1",
-    "postcss": "^8.4.13",
-    "postcss-cli": "^9.1.0",
-    "postcss-import": "^14.1.0",
-    "tailwindcss": "^3.0.24"
-  }
+   "name": "portfolio",
+   "scripts": {
+      "dev": "concurrently --kill-others \"npm run serve\" \"npm run css\"",
+      "serve": "eleventy --serve",
+      "css": "postcss ./src/styles/index.css -o ./dist/index.css -w",
+      "build": "rm -rf dist && eleventy && postcss ./src/styles/index.css -o ./dist/index.css"
+   },
+   "author": "NightWandeder2004",
+   "license": "ISC",
+   "dependencies": {
+      "@11ty/eleventy": "^1.0.1",
+      "autoprefixer": "^10.4.7",
+      "concurrently": "^7.2.0",
+      "dotenv": "^16.0.1",
+      "postcss": "^8.4.13",
+      "postcss-cli": "^9.1.0",
+      "postcss-import": "^14.1.0",
+      "tailwindcss": "^3.0.24"
+   }
 }

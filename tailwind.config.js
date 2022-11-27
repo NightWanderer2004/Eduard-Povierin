@@ -1,9 +1,9 @@
 module.exports = {
-   content: ['./src/**/*.{css, html}'],
+   content: ['./src/**/*.{css, html, js}'],
    theme: {
       extend: {
          colors: {
-            brownr: '#654321',
+            brown: '#52361b',
          },
       },
       fontFamily: {
