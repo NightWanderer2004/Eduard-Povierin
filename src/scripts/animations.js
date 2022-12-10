@@ -19,7 +19,8 @@ const elemOutOfView = (el, offset = 150) => {
 const animation = () => {
    elemTitles.forEach(el => {
       if (elemInView(el)) el.style.transform = `translateX(0%)`
-      else if (elemOutOfView(el)) el.style.transform = el.closest('.skills') ? `translateX(100%)` : `translateX(-100%)`
+      else if (elemOutOfView(el)) el.style.transform = `translateX(-100%)`
+      // else if (elemOutOfView(el)) el.style.transform = el.closest('.skills') ? `translateX(100%)` : `translateX(-100%)`
    })
 }
 

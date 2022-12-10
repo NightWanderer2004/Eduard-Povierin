@@ -1,17 +1,12 @@
-.skills {
-   @apply overflow-hidden;
-}
-.skills .titleWrapper {
+/* .skills .titleWrapper {
    @apply absolute right-0;
-}
+} */
 .skills .title {
-   @apply pl-10 relative bottom-10 transition-transform;
+   @apply pl-10 transition-transform;
+   /* @apply pl-10 relative bottom-14 transition-transform; */
 }
 .skills .title span {
    @apply text-4xl;
-}
-.mainList {
-   @apply grid;
 }
 .mainList li h3 {
    @apply text-brown/30 text-5xl mb-2 font-glashick;
