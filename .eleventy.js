@@ -4,7 +4,6 @@ module.exports = config => {
       const age = new Date(diff)
       return Math.abs(age.getUTCFullYear() - 1970)
    })
-   config.addNunjucksFilter('test', name => `hello, ${name}`)
 
    config.addPassthroughCopy('src/assets')
    config.addPassthroughCopy('src/scripts')
