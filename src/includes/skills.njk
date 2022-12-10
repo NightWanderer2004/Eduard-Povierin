@@ -1,0 +1,15 @@
+<section class="skills">
+   <div class="titleWrapper"><h2 class="title">S<span>k</span>ills</h2></div>
+   <ul class="mainList">
+      {% for skillsList in me.skills %}
+         <li>
+            <h3>{{ skillsList.title }}</h3>
+            <ul class="skillsList">
+               {% for skill in skillsList.list %}
+                  <li>{{skill}}</li>
+               {% endfor %}
+            </ul>
+         </li>
+      {% endfor %}
+   </ul>
+</section>

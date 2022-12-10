@@ -1,0 +1,33 @@
+.skills {
+   @apply overflow-hidden;
+}
+.skills .titleWrapper {
+   @apply absolute right-0;
+}
+.skills .title {
+   @apply pl-10 relative bottom-10 transition-transform;
+}
+.skills .title span {
+   @apply text-4xl;
+}
+.mainList {
+   @apply grid;
+}
+.mainList li h3 {
+   @apply text-brown/30 text-5xl mb-2 font-glashick;
+}
+.mainList li h3:first-child {
+   @apply mt-4;
+}
+.skillsList {
+   @apply grid grid-cols-2 grid-rows-2 gap-1 px-1 mb-10;
+}
+.skillsList li {
+   @apply flex justify-center items-center italic text-brown border-2 border-brown/50 rounded-2xl text-3xl p-2 w-full break-all;
+}
+.skillsList li:first-child {
+   @apply row-span-2 text-3xl;
+}
+.skillsList li:last-child:not(:nth-child(2)):not(:nth-child(3)) {
+   @apply col-span-2;
+}

@@ -1,5 +1,6 @@
-.contacts {
-   @apply mt-20;
+.contacts .title {
+   @apply transition-transform;
+   transform: translateX(-100%);
 }
 .contacts ul {
    @apply flex;

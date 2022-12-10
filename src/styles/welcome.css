@@ -1,0 +1,42 @@
+.welcome {
+   @apply min-h-screen flex items-center justify-center;
+}
+.name {
+   @apply text-brown font-bold text-7xl fixed px-2 animate-[start_0.7s_ease-in];
+}
+.name span:first-child {
+   @apply pl-20;
+}
+.name .job {
+   @apply text-right left-36 text-[34px];
+}
+.name .job span {
+   @apply pl-0 bg-brown text-cream italic font-normal;
+}
+.arrow {
+   @apply w-16 absolute bottom-0 transition-opacity;
+   left: calc(50% - 64px / 2);
+   animation-name: hover, start;
+   animation-duration: 2s, 0.9s;
+   animation-iteration-count: infinite, 1;
+   animation-direction: alternate-reverse, normal;
+}
+
+@keyframes hover {
+   from {
+      transform: translateY(-5px);
+   }
+   to {
+      transform: translateY(0px);
+   }
+}
+@keyframes start {
+   0% {
+      transform: translateY(-5%);
+      opacity: 0%;
+   }
+   100% {
+      transform: translateY(0px);
+      opacity: 100%;
+   }
+}

@@ -4,10 +4,12 @@ module.exports = {
       extend: {
          colors: {
             brown: '#52361b',
+            cream: '#FEFFFD',
          },
-      },
-      fontFamily: {
-         apple: 'Apple Garamond',
+         fontFamily: {
+            apple: 'Apple Garamond',
+            glashick: 'Glashick',
+         },
       },
    },
    plugins: [],

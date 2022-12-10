@@ -1,7 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/apple-garamond');
+@import url('https://fonts.cdnfonts.com/css/glashick');
 
-@import './main.css';
+@import './welcome.css';
 @import './about.css';
+@import './skills.css';
 @import './contacts.css';
 @tailwind base;
 @tailwind components;
@@ -9,13 +11,19 @@
 
 body,
 html {
-   @apply scroll-smooth font-apple;
+   @apply scroll-smooth font-apple bg-cream overflow-x-hidden;
 }
-.main {
-   @apply overflow-hidden;
+.wrapper {
+   @apply overflow-x-hidden min-h-screen;
+}
+section {
+   @apply mt-28;
+}
+section:first-child {
+   @apply mt-12;
 }
 .title {
-   @apply text-white bg-brown text-4xl mb-1 inline-block;
+   @apply text-cream bg-brown text-4xl mb-1 inline-block;
 }
 .title span {
    @apply italic text-5xl;

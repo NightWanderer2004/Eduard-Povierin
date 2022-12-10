@@ -1,9 +1,9 @@
-.about {
-   @apply mt-[320px];
+.about .title {
+   @apply transition-transform;
 }
 .about .title span {
-   @apply italic text-5xl;
+   @apply italic ml-3 text-5xl;
 }
 .about .info {
-   @apply text-brown text-[22px] px-2;
+   @apply text-brown text-2xl px-2;
 }
