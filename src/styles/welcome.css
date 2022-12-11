@@ -2,10 +2,10 @@
    @apply min-h-screen flex items-center justify-center;
 }
 .name {
-   @apply text-brown font-bold text-7xl fixed px-2 animate-[start_0.7s_ease-in];
+   @apply text-brown font-bold text-7xl sm:text-8xl fixed px-2 animate-[start_0.7s_ease-in] transition-opacity duration-500;
 }
 .name span:first-child {
-   @apply pl-20;
+   @apply pl-20 sm:pl-0;
 }
 .name .job {
    @apply text-right left-36 text-[34px];
