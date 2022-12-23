@@ -1,5 +1,5 @@
 // Arrow
-const arrow = document.querySelector('.arrow')
+const arrow = document.querySelector('.arrowBtn')
 const arrowHeight = arrow.getBoundingClientRect().top / 4
 // Name
 const myName = document.querySelector('.name')
@@ -34,7 +34,6 @@ const animation = () => {
 }
 
 window.onscroll = () => {
-   // animation()
-   document.documentElement.scrollTop > arrowHeight ? (arrow.style.opacity = 0) : (arrow.style.opacity = 100)
+   document.documentElement.scrollTop > arrowHeight ? arrow.classList.add('hide') : arrow.classList.remove('hide')
    document.documentElement.scrollTop > myNameHeight ? (myName.style.opacity = 0) : (myName.style.opacity = 100)
 }
