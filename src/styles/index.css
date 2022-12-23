@@ -17,14 +17,14 @@ html {
    @apply overflow-x-hidden min-h-screen;
 }
 section {
-   @apply mt-20;
+   @apply mt-20 container mx-auto;
 }
 section:first-child {
    @apply mt-12;
 }
 .title {
-   @apply text-cream bg-brown w-full text-4xl mb-6;
+   @apply text-brown border-b-[5px] border-brown font-glashick w-full text-5xl mb-6;
 }
 .title span {
-   @apply italic text-5xl;
+   @apply italic;
 }

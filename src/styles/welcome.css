@@ -11,15 +11,24 @@
    @apply text-right left-36 text-[34px];
 }
 .name .job span {
-   @apply pl-0 bg-brown text-cream italic font-normal;
+   @apply pl-0 bg-brown text-cream font-glashick pr-2 italic font-normal;
 }
 .arrow {
-   @apply w-16 absolute bottom-0 transition-opacity;
-   left: calc(50% - 64px / 2);
+   @apply w-16 pointer-events-none;
    animation-name: hover, start;
    animation-duration: 2s, 0.9s;
    animation-iteration-count: infinite, 1;
    animation-direction: alternate-reverse, normal;
+}
+.arrowBtn {
+   @apply absolute outline-none bottom-0 transition-opacity pointer-events-auto opacity-100;
+   left: calc(50% - 64px / 2);
+}
+.arrowBtn:focus .arrow {
+   @apply border-2 border-brown rounded-2xl;
+}
+.arrowBtn.hide {
+   @apply opacity-0 pointer-events-none;
 }
 
 @keyframes hover {

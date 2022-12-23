@@ -1,23 +1,29 @@
 .skills .title {
-   @apply pl-12 transition-transform;
-}
-.skills .title span {
-   @apply text-4xl;
+   @apply transition-transform;
 }
 .mainList li h3 {
-   @apply text-brown/20 text-5xl mb-2 font-glashick;
+   @apply text-brown/20 text-[42px] leading-none mb-2 font-glashick;
 }
 .mainList li h3:first-child {
    @apply mt-4;
 }
 .skillsList {
-   @apply grid grid-cols-2 grid-rows-2 gap-1 px-1 mb-10;
+   @apply grid grid-cols-2 grid-rows-2 gap-y-1 mb-10;
 }
 .skillsList li {
-   @apply flex justify-center items-center text-brown border-2 border-brown/30 rounded-2xl text-3xl p-2 w-full break-all;
+   @apply flex justify-center items-center text-brown/80 bg-brown/5 rounded-full text-3xl tracking-wide p-2 w-full break-all;
 }
 .skillsList li:first-child {
-   @apply row-span-2 text-3xl;
+   @apply row-span-2 text-4xl;
+}
+/* For first and last(4-th) */
+.skillsList li:last-child:not(:nth-child(2)):not(:nth-child(3)),
+.skillsList li:first-child {
+   @apply border-l-0 rounded-tl-none rounded-bl-none;
+}
+/* For the rest */
+.skillsList li:not(:first-child):not(:last-child:not(:nth-child(3)):not(:nth-child(2))) {
+   @apply border-r-0 rounded-tr-none rounded-br-none;
 }
 .skillsList li:last-child:not(:nth-child(2)):not(:nth-child(3)) {
    @apply col-span-2;
