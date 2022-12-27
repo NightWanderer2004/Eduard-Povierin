@@ -1,0 +1,21 @@
+<section class="projects">
+   <h2 class="title">
+      <p>Proj<span>e</span>cts</p>
+   </h2>
+   <div class="swiper">
+      <div class="swiper-wrapper">
+         {% for el in me.projects %}
+            <div class="project swiper-slide">
+               <div>
+                  <img src="{{ el.img }}" alt="{{ el.title }}">
+                  <a href="{{ el.url }}" target="_blank" rel="noreferrer noopener">{{ el.title }}</a>
+               </div>
+            </div>
+         {% endfor %}
+      </div>
+   </div>
+   <div class="navArrows">
+      <div class="arrows prev"><img src="/assets/icons/navArrow.svg" alt=">"></div>
+      <div class="arrows next"><img src="/assets/icons/navArrow.svg" alt=">"></div>
+   </div>
+</section>

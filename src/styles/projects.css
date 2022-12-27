@@ -1,0 +1,21 @@
+.project {
+   @apply flex flex-col items-center my-8 text-brown tracking-wide;
+}
+.project div {
+   @apply pl-3;
+}
+.project a {
+   @apply text-cream bg-brown absolute -bottom-2 underline pl-5 pb-4 text-5xl md:text-4xl;
+}
+.project img {
+   @apply w-[85%] sm:w-[75%] md:w-[50%] border-4 border-brown/20;
+}
+.navArrows {
+   @apply px-3 flex justify-end gap-x-4 overflow-hidden;
+}
+.arrows {
+   @apply rotate-[10deg] active:bg-brown/5;
+}
+.arrows.prev {
+   @apply rotate-[190deg];
+}
