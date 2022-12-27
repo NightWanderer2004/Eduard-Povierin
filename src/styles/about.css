@@ -15,7 +15,7 @@
    @apply line-clamp-none;
 }
 .about .showMore {
-   @apply text-brown text-3xl outline-none;
+   @apply text-brown text-3xl outline-none sm:hidden;
 }
 .about .showMore:focus {
    @apply underline;

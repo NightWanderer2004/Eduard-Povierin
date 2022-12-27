@@ -4,6 +4,7 @@
 @import './welcome.css';
 @import './about.css';
 @import './skills.css';
+@import './projects.css';
 @import './contacts.css';
 @tailwind base;
 @tailwind components;
