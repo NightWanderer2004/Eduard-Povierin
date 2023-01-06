@@ -1,5 +1,6 @@
 module.exports = {
    age: new Date(2004, 5, 18),
+   start: new Date(2021, 8, 1),
    location: 'Poland(Kielce)',
    skills: [
       { title: 'Programming langs', list: ['Javascript', 'C'] },
