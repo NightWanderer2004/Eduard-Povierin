@@ -1,6 +1,3 @@
-.about .title {
-   @apply transition-transform;
-}
 .about .title span {
    @apply ml-3;
 }

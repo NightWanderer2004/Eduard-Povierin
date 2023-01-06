@@ -2,6 +2,6 @@
    <h2 class="title">
       <p>About <span>me</span></p>
    </h2>         
-   <p class="info">I'm {{ me.age | getAge }} years old Ukrainian. Now I live in {{ me.location }} and study at PSK on telecommunications faculty. <br> Started my way as web developer above 1.6 year ago, I have just finished my study as web and practice my skills in real life usage.</p>
+   <p class="info">I'm {{ me.age | getTerm }} years old Ukrainian. Now I live in {{ me.location }} and study at PSK on telecommunications faculty. <br> Started my way as web developer above {{ me.start | getTerm }} year ago, I have just finished my study as web and practice my skills in real life usage.</p>
    <button class="showMore">more</button>
 </section>
