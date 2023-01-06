@@ -1,18 +1,6 @@
-.contacts .title {
-   @apply transition-transform;
-}
 .contacts ul {
    @apply flex;
 }
 .contacts a {
-   @apply inline-block text-[22px] mr-2 italic pl-1;
-}
-.contacts .mail {
-   /* @apply bg-yellow-300; */
-}
-.contacts .telegram {
-   /* @apply bg-sky-500 text-white; */
-}
-.contacts .github {
-   /* @apply bg-black text-white; */
+   @apply text-3xl bg-brown text-cream p-2 pr-4 hover:underline rounded-tl-3xl;
 }
