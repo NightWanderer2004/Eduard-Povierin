@@ -12,27 +12,6 @@ if (window.matchMedia('(max-width: 500px)').matches) {
    myNameHeight = myName.getBoundingClientRect().top * 1.2
 }
 
-// Titles
-const elemTitles = document.querySelectorAll('.title')
-const elemsTitleHeight = []
-
-const elemInView = (el, offset = 60) => {
-   const elemTop = el.getBoundingClientRect().top + offset
-   return elemTop <= (window.innerHeight || document.documentElement.clientHeight)
-}
-
-const elemOutOfView = (el, offset = 150) => {
-   const elemTop = el.getBoundingClientRect().top + offset
-   return elemTop > (window.innerHeight || document.documentElement.clientHeight)
-}
-
-const animation = () => {
-   elemTitles.forEach(el => {
-      if (elemInView(el)) el.style.transform = `translateX(0%)`
-      else if (elemOutOfView(el)) el.style.transform = `translateX(-100%)`
-   })
-}
-
 window.onscroll = () => {
    document.documentElement.scrollTop > arrowHeight ? arrow.classList.add('hide') : arrow.classList.remove('hide')
    document.documentElement.scrollTop > myNameHeight ? (myName.style.opacity = 0) : (myName.style.opacity = 100)
