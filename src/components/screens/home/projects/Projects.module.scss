@@ -1,0 +1,32 @@
+.projects {
+   @apply mt-24;
+   h2 {
+      @apply text-[50px] mb-5 font-medium;
+   }
+}
+.projectsList {
+   @apply grid sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-10;
+}
+.project {
+   @apply rounded-[20px] border-[1px] border-black w-4/5 sm:w-full relative;
+   img {
+      @apply relative z-20 rounded-[20px] pointer-events-none;
+   }
+   &.inView .backdrop {
+      @apply -right-[50px] sm:right-0;
+   }
+   &:hover .backdrop {
+      @apply sm:-right-[34px];
+   }
+   .backdrop {
+      @apply bg-black text-white absolute transition-all inset-0 z-10 flex justify-between items-end rounded-[20px] px-2 py-4 sm:px-0 sm:py-3;
+      writing-mode: vertical-lr;
+      text-orientation: mixed;
+      .description {
+         @apply text-white text-xl;
+      }
+      .visit {
+         @apply text-white text-3xl font-medium;
+      }
+   }
+}

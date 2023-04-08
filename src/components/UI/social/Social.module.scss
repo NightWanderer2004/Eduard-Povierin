@@ -1,0 +1,26 @@
+.social {
+   @apply flex items-center gap-x-[11px] md:gap-x-[22px];
+   &.isFooter {
+      li {
+         @apply border-white bg-white;
+         &:hover {
+            @apply shadow-[1px_1px_0_gray] md:shadow-[2px_2px_0_gray];
+         }
+      }
+   }
+   li {
+      @apply flex justify-center items-center border-black border-[1px] rounded-full transition-shadow;
+      &:hover {
+         @apply shadow-[1px_1px_0_black] md:shadow-[2px_2px_0_black];
+      }
+      a {
+         @apply block w-full h-full p-[8px] md:p-[13.7px];
+      }
+      img {
+         @apply w-[22px] md:w-[26px] h-[22px] md:h-[26px];
+      }
+      &.tel img {
+         @apply relative right-[2px];
+      }
+   }
+}

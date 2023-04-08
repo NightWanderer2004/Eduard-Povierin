@@ -1,0 +1,27 @@
+.navbar {
+   @apply py-3 fixed left-0 right-0 z-30 backdrop-blur-lg border-b-[1px] border-white/50 bg-white/50;
+   &.expanded {
+      @apply h-[135px];
+   }
+   .content {
+      @apply container px-3 mx-auto flex justify-between items-center;
+   }
+   .menuBtn {
+      @apply sm:hidden;
+   }
+   .name {
+      @apply text-[24px] sm:text-[28px] font-medium leading-8;
+   }
+}
+.navLinks {
+   @apply absolute sm:static top-[85px] left-0 px-3 hidden sm:flex justify-between sm:justify-end items-center w-full sm:gap-[44px] text-[28px] font-medium text-gray-300;
+   &.show {
+      @apply flex;
+   }
+   a {
+      @apply underline-offset-4 hover:underline;
+      &.active {
+         @apply text-black;
+      }
+   }
+}

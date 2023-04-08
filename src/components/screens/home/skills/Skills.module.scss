@@ -1,0 +1,18 @@
+.skills {
+   @apply mt-24;
+   h2 {
+      @apply text-[50px] mb-5 font-medium;
+   }
+}
+.skillsList {
+   @apply grid grid-cols-2 md:grid-cols-3 gap-5 sm:gap-10;
+   .subList {
+      @apply border-[1px] border-black p-5 rounded-[20px];
+      h3 {
+         @apply text-2xl sm:text-3xl font-medium mb-2;
+      }
+      ul li {
+         @apply text-lg sm:text-xl;
+      }
+   }
+}

@@ -1,0 +1,17 @@
+.bio {
+   .info {
+      // @apply border-[1px] border-black rounded-[20px] p-5;
+   }
+   h2 {
+      @apply text-[50px] mb-5 font-medium;
+   }
+   p {
+      @apply text-[20px] sm:text-[23px] font-medium sm:font-normal text-black/90 tracking-wide sm:tracking-normal leading-6 sm:leading-7 mb-10;
+      &:last-child {
+         @apply mb-0;
+      }
+   }
+   a {
+      @apply text-blue-600;
+   }
+}
