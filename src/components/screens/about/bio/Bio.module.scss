@@ -1,7 +1,5 @@
 .bio {
-   .info {
-      // @apply border-[1px] border-black rounded-[20px] p-5;
-   }
+   @apply mt-24;
    h2 {
       @apply text-[50px] mb-5 font-medium;
    }

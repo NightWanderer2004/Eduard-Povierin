@@ -15,13 +15,14 @@ const Bio = () => {
                <a href='https://www.linkedin.com/in/eduard-povierin-44920a22a/' target='_blank'>
                   LinkedIn
                </a>{' '}
-               or write me a message on Telegram{' '}
+               or write me a message on{' '}
                <a href='https://t.me/nightwanderer2004' target='_blank'>
-                  [@nightwanderer2004]
+                  Telegram
                </a>
                .
-               <br /> I'm always looking to collaborate and learn from others. <br /> Thanks for stopping by!
+               <br /> I'm always looking to collaborate and learn from others.
             </p>
+            <p>Thanks for stopping by!</p>
          </div>
       </div>
    )
