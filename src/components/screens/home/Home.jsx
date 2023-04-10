@@ -1,13 +1,13 @@
+import Bio from '../about/bio/Bio'
 import Hero from './hero/Hero'
 import Projects from './projects/Projects'
-import Skills from './skills/Skills'
 
 const Home = () => {
    return (
       <>
          <Hero />
+         <Bio />
          <Projects />
-         <Skills />
       </>
    )
 }
