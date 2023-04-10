@@ -22,7 +22,7 @@ module.exports = {
    skills: [
       { title: 'Prog. langs', list: ['Javascript', 'C++', 'Python'] },
       { title: 'Frontend', list: ['React', 'NextJS', '11ty', 'TailwindCSS'] },
-      { title: 'Backend', list: ['NodeJS', 'MongoDB', 'NestJS', 'JWT'] },
+      { title: 'Backend', list: ['NodeJS', 'NestJS', 'MongoDB'] },
       { title: 'Tools', list: ['Vs Code', 'GitHub', 'Notion'] },
       { title: 'Other', list: ['Browsers', 'MacOS'] },
    ],
@@ -31,6 +31,12 @@ module.exports = {
       { title: 'Actify', url: 'https://actify-you.netlify.app', desc: 'app for activity', img: '/projects/actify.png' },
    ],
    work: [
-      { title: 'Fullstack Trainee', company: 'ZenBit', date: 'aug 2022 - oct 2022', desc: 'developing frontend and backend for freelance platform' },
+      { title: 'Freelancer', company: 'WebLancer', date: 'apr 2021 - aug 2021', desc: 'making simple landing pages and fixes in HTML and CSS' },
+      {
+         title: 'Fullstack Trainee',
+         company: 'ZenBit',
+         date: 'aug 2022 - oct 2022',
+         desc: 'developed frontend and backend for own freelance platform',
+      },
    ],
 }
