@@ -1,10 +1,10 @@
 import Layout from '@/components/layout/Layout'
-import React from 'react'
+import Works from '@/components/screens/works/Works'
 
 const works = () => {
    return (
       <Layout title='Eduard Povierin | works' description='Eduard Povierin projects and work experience'>
-         works
+         <Works />
       </Layout>
    )
 }

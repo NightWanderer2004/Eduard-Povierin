@@ -1,0 +1,41 @@
+.item {
+   @apply relative mb-3 min-h-[150px] flex items-center justify-center transition-all;
+   &.inView {
+      .content {
+         @apply opacity-100 scale-100 text-white bg-black;
+      }
+      &::before {
+         @apply top-[1px] rounded-none -left-4 w-[50px] h-1;
+      }
+      &::after {
+         @apply opacity-0;
+      }
+   }
+   &::before,
+   &::after {
+      @apply rounded-full absolute  transition-all ease-in-out;
+   }
+   &::before {
+      content: '';
+      @apply w-5 h-5 bg-black top-0 left-0;
+   }
+   &::after {
+      content: '';
+      @apply w-[10px] h-[10px] bg-white  top-[5px] left-[5px];
+   }
+   &:last-child {
+      @apply mb-0;
+   }
+   .content {
+      @apply opacity-0 scale-50 origin-top-left p-5 rounded-[20px] rounded-tl-none transition-all ease-in-out;
+      .date {
+         @apply font-medium text-lg;
+      }
+      .company {
+         @apply font-medium text-2xl;
+      }
+      .desc {
+         @apply text-base;
+      }
+   }
+}
