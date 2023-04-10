@@ -1,20 +1,3 @@
-// import Image from 'next/image'
-// import s from './Projects.module.scss'
-
-// const Project = ({ title, img, url, desc }) => {
-//    return (
-//       <li key={title} className={s.project}>
-//          <Image src={img} alt={title} width='828' height='1438' />
-//          <a href={url} className={s.backdrop}>
-//             <p className={s.description}>{desc}</p>
-//             <p className={s.visit}>visit</p>
-//          </a>
-//       </li>
-//    )
-// }
-
-// export default Project
-
 import React, { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import s from './Projects.module.scss'
