@@ -1,11 +1,11 @@
 .item {
-   @apply relative mb-3 min-h-[150px] flex items-center justify-center transition-all;
+   @apply relative mb-3 min-h-[150px] transition-all;
    &.inView {
       .content {
          @apply opacity-100 scale-100 text-white bg-black;
       }
       &::before {
-         @apply top-[1px] rounded-none -left-4 w-[50px] h-1;
+         @apply top-0 rounded-none -left-4 w-[50px] h-1;
       }
       &::after {
          @apply opacity-0;
@@ -29,13 +29,13 @@
    .content {
       @apply opacity-0 scale-50 origin-top-left p-5 rounded-[20px] rounded-tl-none transition-all ease-in-out;
       .date {
-         @apply font-medium text-lg;
+         @apply font-medium text-lg sm:text-xl;
       }
       .company {
-         @apply font-medium text-2xl;
+         @apply font-medium text-2xl sm:text-3xl;
       }
       .desc {
-         @apply text-base;
+         @apply text-base sm:text-lg;
       }
    }
 }

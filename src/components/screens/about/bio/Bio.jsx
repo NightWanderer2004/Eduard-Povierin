@@ -19,8 +19,7 @@ const Bio = () => {
                <a href='https://t.me/nightwanderer2004' target='_blank'>
                   Telegram
                </a>
-               .
-               <br /> I'm always looking to collaborate and learn from others.
+               . I'm always looking to collaborate and learn from others.
             </p>
             <p>Thanks for stopping by!</p>
          </div>
