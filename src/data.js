@@ -36,7 +36,7 @@ module.exports = {
          title: 'Fullstack Trainee',
          company: 'ZenBit',
          date: 'aug 2022 - oct 2022',
-         desc: 'developed frontend and backend for own freelance platform',
+         desc: 'developing frontend and backend for own freelance platform',
       },
    ],
 }
