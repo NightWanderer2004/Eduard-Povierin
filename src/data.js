@@ -20,16 +20,18 @@ module.exports = {
       },
    ],
    skills: [
-      { title: 'Prog. langs', list: ['Javascript', 'C++', 'Python'] },
-      { title: 'Frontend', list: ['React', 'NextJS', '11ty', 'TailwindCSS'] },
-      { title: 'Backend', list: ['NodeJS', 'NestJS', 'MongoDB'] },
-      { title: 'Tools', list: ['Vs Code', 'GitHub', 'Notion'] },
+      { title: 'Prog. langs', list: ['Javascript / TS', 'C / C++', 'Python'] },
+      { title: 'Frontend', list: ['React', 'NextJS', '11ty', 'TailwindCSS', 'RTK'] },
+      { title: 'Backend', list: ['NodeJS', 'NestJS / Express', 'MongoDB / PostgreSQL'] },
+      { title: 'Tools', list: ['VS Code', 'GitHub', 'Notion'] },
       { title: 'Other', list: ['Browsers', 'MacOS'] },
    ],
    projects: [
       { title: 'Suimiro', url: 'https://suimiro.me', desc: 'web blog', img: '/projects/suimiro.png' },
       { title: 'Actify', url: 'https://actify-you.netlify.app', desc: 'app for activity', img: '/projects/actify.png' },
+      { title: 'Tokners', url: 'https://my-tokners.netlify.app', desc: 'landing page for crypto company', img: '/projects/tokners.png' },
    ],
+   myFavs: ['Japan', 'strategy games', 'anime', 'old apple devices', 'minimalism', 'music'],
    work: [
       { title: 'Freelancer', company: 'WebLancer', date: 'apr 2021 - aug 2021', desc: 'making simple landing pages and fixes in HTML and CSS' },
       {
