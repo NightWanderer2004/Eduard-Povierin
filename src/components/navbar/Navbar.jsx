@@ -3,6 +3,7 @@ import Links from './Links'
 import s from './Navbar.module.scss'
 import Image from 'next/image'
 import { useState } from 'react'
+import Link from 'next/link'
 
 const Navbar = () => {
    const { pathname } = useRouter()
@@ -13,7 +14,9 @@ const Navbar = () => {
       <nav className={`${s.navbar} ${isMenuOpen ? s.expanded : ''}`}>
          <div className={s.content}>
             <h3 className={s.name}>
-               Eduard <br /> Povierin
+               <Link href='/'>
+                  Eduard <br /> Povierin
+               </Link>
             </h3>
             <button className={s.menuBtn} onClick={menuClickHandler}>
                <Image src='/icons/menu.svg' alt='menu' width={48} height={48} />
