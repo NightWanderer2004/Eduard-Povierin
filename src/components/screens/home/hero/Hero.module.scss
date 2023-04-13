@@ -14,9 +14,9 @@
       }
    }
    .photo {
-      @apply col-span-1 sm:col-span-2 bg-indigo-200 overflow-hidden;
+      @apply col-span-1 sm:col-span-2 bg-[url("/photo-bg.jpg")] bg-no-repeat bg-cover overflow-hidden;
       img {
-         @apply scale-[1.45]  object-cover object-center w-full h-full;
+         @apply scale-[1.45] object-cover object-center w-full h-full;
       }
    }
 }
