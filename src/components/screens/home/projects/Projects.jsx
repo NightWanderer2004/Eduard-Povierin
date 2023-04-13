@@ -1,3 +1,7 @@
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Keyboard } from 'swiper'
+import 'swiper/scss'
+import 'swiper/scss/pagination'
 import { projects } from '@/data'
 import s from './Projects.module.scss'
 import Project from './Project'
@@ -6,11 +10,33 @@ const Projects = () => {
    return (
       <div className={s.projects}>
          <h2>Projects:</h2>
-         <ul className={s.projectsList}>
+         <Swiper
+            breakpoints={{
+               320: {
+                  slidesPerView: 1.3,
+                  spaceBetween: 24,
+               },
+               768: {
+                  slidesPerView: 2.3,
+                  spaceBetween: 32,
+               },
+               1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+               },
+            }}
+            spaceBetween={24}
+            slidesPerView={1.3}
+            modules={[Keyboard]}
+            keyboard={{ enabled: true }}
+            pagination={{ clickable: true }}
+         >
             {projects.map(el => (
-               <Project key={el.title} title={el.title} img={el.img} url={el.url} desc={el.desc} />
+               <SwiperSlide key={el.title}>
+                  <Project title={el.title} img={el.img} url={el.url} desc={el.desc} />
+               </SwiperSlide>
             ))}
-         </ul>
+         </Swiper>
       </div>
    )
 }
