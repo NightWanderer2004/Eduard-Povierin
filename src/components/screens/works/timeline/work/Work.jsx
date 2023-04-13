@@ -6,8 +6,8 @@ const Work = ({ el }) => {
    const elemRef = useRef(null)
 
    const options = {
-      rootMargin: '-15px',
-      threshold: 0.5,
+      rootMargin: '0px',
+      threshold: 1,
    }
 
    useEffect(() => {

@@ -1,11 +1,11 @@
 .item {
-   @apply relative mb-3 min-h-[150px] transition-all;
+   @apply relative mb-3 min-h-[150px];
    &.inView {
       .content {
-         @apply opacity-100 scale-100 text-white bg-black;
+         @apply opacity-100 scale-100 text-black border-black border-[1px];
       }
       &::before {
-         @apply top-0 rounded-none -left-4 w-[50px] h-1;
+         @apply top-0 rounded-none -left-3 w-[50px] h-[1px] border-[0.5px];
       }
       &::after {
          @apply opacity-0;
@@ -13,21 +13,21 @@
    }
    &::before,
    &::after {
-      @apply rounded-full absolute  transition-all ease-in-out;
+      @apply rounded-full absolute transition-all ease-out;
    }
    &::before {
       content: '';
-      @apply w-5 h-5 bg-black top-0 left-0;
+      @apply w-5 h-5 border-black border-[1px] top-0 left-0;
    }
    &::after {
       content: '';
-      @apply w-[10px] h-[10px] bg-white  top-[5px] left-[5px];
+      @apply w-[9px] h-[9px] bg-black top-[6px] left-[6px];
    }
    &:last-child {
       @apply mb-0;
    }
    .content {
-      @apply opacity-0 scale-50 origin-top-left p-5 rounded-[20px] rounded-tl-none transition-all ease-in-out;
+      @apply opacity-0 scale-50 origin-top-left p-5 rounded-[20px] rounded-tl-none transition-all ease-out;
       .date {
          @apply font-medium text-lg sm:text-xl;
       }
