@@ -21,7 +21,6 @@ const Bio = () => {
                </a>
                . I'm always looking to collaborate and learn from others.
             </p>
-            <p>Thanks for stopping by!</p>
          </div>
       </div>
    )
