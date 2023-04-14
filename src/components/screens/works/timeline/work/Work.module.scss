@@ -21,7 +21,7 @@
    }
    &::after {
       content: '';
-      @apply w-[9px] h-[9px] bg-black top-[6px] left-[6px];
+      @apply w-2 h-2 bg-black top-[6.5px] left-[6.5px];
    }
    &:last-child {
       @apply mb-0;

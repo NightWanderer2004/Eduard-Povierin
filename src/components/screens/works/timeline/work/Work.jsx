@@ -29,7 +29,7 @@ const Work = ({ el }) => {
       <li ref={elemRef} className={`${s.item} ${inView ? s.inView : ''}`}>
          <div className={s.content}>
             <p className={s.company}>
-               {el.title} at {el.company}
+               {el.title} {el.company ? `at ${el.company}` : ''}
             </p>
             <p className={s.date}>{el.date}</p>
             <p className={s.desc}>{el.desc}</p>
