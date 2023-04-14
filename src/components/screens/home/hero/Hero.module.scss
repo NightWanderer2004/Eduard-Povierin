@@ -2,19 +2,19 @@
    @apply grid sm:grid-cols-5 gap-5 sm:gap-10;
    .info,
    .photo {
-      @apply rounded-[20px] border-[1px] border-black;
+      @apply rounded-[20px] border-[1px] border-primary;
    }
    .info {
       @apply flex flex-col justify-between gap-[60px] px-9 sm:px-14 py-6 sm:py-10 col-span-1 sm:col-span-3;
       h1 {
-         @apply text-[36px] sm:text-[40px] font-medium leading-10 tracking-wide mb-5;
+         @apply text-[36px] sm:text-[40px] font-medium text-primary leading-10 tracking-wide mb-5;
       }
       p {
-         @apply text-[14px] sm:text-[16px] font-medium sm:font-normal text-black/90 leading-5;
+         @apply text-[14px] sm:text-[16px] font-medium sm:font-normal text-primary leading-5;
       }
    }
    .photo {
-      @apply col-span-1 sm:col-span-2 bg-[url("/photo-bg.jpg")] bg-no-repeat bg-cover overflow-hidden;
+      @apply col-span-1 sm:col-span-2 bg-[url("/photo-bg.jpg")] dark:opacity-90 bg-no-repeat bg-cover overflow-hidden;
       img {
          @apply scale-[1.45] object-cover object-center w-full h-full;
       }

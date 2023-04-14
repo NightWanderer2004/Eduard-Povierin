@@ -2,7 +2,7 @@
    @apply relative mb-3 min-h-[150px];
    &.inView {
       .content {
-         @apply opacity-100 scale-100 text-black border-black border-[1px];
+         @apply opacity-100 scale-100 text-primary border-primary border-[1px];
       }
       &::before {
          @apply top-0 rounded-none -left-3 w-[50px] h-[1px] border-[0.5px];
@@ -17,11 +17,11 @@
    }
    &::before {
       content: '';
-      @apply w-5 h-5 border-black border-[1px] top-0 left-0;
+      @apply w-5 h-5 border-primary border-[1px] top-0 left-0;
    }
    &::after {
       content: '';
-      @apply w-2 h-2 bg-black top-[6.5px] left-[6.5px];
+      @apply w-2 h-2 bg-primary top-[6.5px] left-[6.5px];
    }
    &:last-child {
       @apply mb-0;

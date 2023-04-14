@@ -4,6 +4,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+   --bg-color: #fff;
+   --blur-color: rgba(255, 255, 255, 0.7);
+   --text-color: rgba(0, 0, 0, 0.9);
+   --link-nav-color: #d1d5db;
+   --link-color: #2563eb;
+}
+
+.dark {
+   --bg-color: #171719;
+   --blur-color: rgba(23, 23, 25, 0.7);
+   --text-color: #ceced2;
+   --link-nav-color: #9ca3af;
+}
+
 body,
 html {
    font-family: 'Clash Display', sans-serif;

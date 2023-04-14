@@ -1,12 +1,12 @@
 .favs {
    @apply mt-24;
    h2 {
-      @apply text-[50px] mb-5 font-medium;
+      @apply text-[50px] mb-5 text-primary font-medium;
    }
    .list {
       @apply grid gap-5 sm:gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-flow-col;
       .item {
-         @apply flex items-center justify-center text-center p-[11px] sm:p-4 rounded-[20px] border-black border-[1px] text-[20px] sm:text-[23px] font-medium sm:font-normal text-black/90 tracking-wide sm:tracking-normal;
+         @apply flex items-center justify-center text-center p-[11px] sm:p-4 rounded-[20px] border-primary border-[1px] text-[20px] sm:text-[23px] font-medium sm:font-normal text-primary tracking-wide sm:tracking-normal;
       }
    }
 }

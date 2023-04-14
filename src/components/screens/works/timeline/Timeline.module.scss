@@ -1,9 +1,9 @@
 .timeline {
    @apply mt-24;
    h2 {
-      @apply text-[50px] mb-5 font-medium;
+      @apply text-[50px] mb-5 text-primary font-medium;
    }
 }
 .list {
-   @apply border-l-[1px] border-black pl-3 py-3 sm:py-6;
+   @apply border-l-[1px] border-primary pl-3 py-3 sm:py-6;
 }
