@@ -21,10 +21,10 @@ module.exports = {
    ],
    skills: [
       { title: 'Prog. langs', list: ['Javascript / TS', 'C / C++', 'Python'] },
-      { title: 'Frontend', list: ['React', 'NextJS', '11ty', 'TailwindCSS', 'RTK'] },
-      { title: 'Backend', list: ['NodeJS', 'NestJS / Express', 'MongoDB / PostgreSQL'] },
-      { title: 'Tools', list: ['VS Code', 'GitHub', 'Notion'] },
-      { title: 'Other', list: ['Browsers', 'MacOS'] },
+      { title: 'Frontend', list: ['React + Redux', 'NextJS', 'TailwindCSS', '11ty'] },
+      { title: 'Backend', list: ['NodeJS', 'NestJS / Express', 'MongoDB'] },
+      { title: 'Tools', list: ['VS Code', 'GitHub', 'Notion', 'Netlify'] },
+      { title: 'Other', list: ['Browsers', 'MacOS', 'Config files'] },
    ],
    projects: [
       { title: 'Suimiro', url: 'https://suimiro.me', desc: 'web blog', img: '/projects/suimiro.png' },
@@ -33,7 +33,7 @@ module.exports = {
    ],
    myFavs: ['Japan', 'strategy games', 'anime', 'old apple devices', 'minimalism', 'music'],
    work: [
-      { title: 'Freelancer', company: 'WebLancer', date: 'apr 2021 - aug 2021', desc: 'making simple landing pages and fixes in HTML and CSS' },
+      { title: 'Freelancer', date: 'apr 2021 - aug 2021', desc: 'making simple landing pages and fixes in HTML and CSS' },
       {
          title: 'Fullstack Trainee',
          company: 'ZenBit',
