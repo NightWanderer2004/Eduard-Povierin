@@ -6,9 +6,13 @@ const Bio = () => {
          <h2>About Me</h2>
          <div className={s.info}>
             <p>
-               Hello, I'm Ed! As a frontend developer who uses Next.js, I know a thing or two about creating sleek and stunning websites. <br /> When
-               I'm not studying ICT at university, I enjoy writing for blogs and tinkering with my beloved old Apple devices. <br /> I pride myself on
-               my talent for creating simple and clear sites.
+               As a frontend developer who uses Next.js, I know a thing about creating sleek and stunning websites. I like to speed up my work process
+               and always try to configure my workspace in a better way. This includes tools such as terminals and IDEs.
+            </p>
+            <p>
+               When I'm not studying ICT at university, I enjoy writing for blogs or tinkering with my beloved old Apple devices... or discovering new
+               and interesting tools for developing.
+               <br /> I pride myself on my talent for creating simple and clear sites.
             </p>
             <p>
                If you're interested in working on projects with me, you can find me on{' '}

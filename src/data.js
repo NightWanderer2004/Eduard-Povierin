@@ -1,7 +1,7 @@
 module.exports = {
    age: new Date(2004, 5, 18),
    start: new Date(2021, 8, 1),
-   location: 'Poland(Kielce)',
+   location: 'Kielce(Poland)',
    social: [
       {
          title: 'linkedIn',
@@ -21,10 +21,10 @@ module.exports = {
    ],
    skills: [
       { title: 'Prog. langs', list: ['Javascript / TS', 'C / C++', 'Python'] },
-      { title: 'Frontend', list: ['React + Redux', 'NextJS', 'TailwindCSS', '11ty'] },
+      { title: 'Frontend', list: ['React+Redux', 'NextJS', 'TailwindCSS', '11ty'] },
       { title: 'Backend', list: ['NodeJS', 'NestJS / Express', 'MongoDB'] },
-      { title: 'Tools', list: ['VS Code', 'GitHub', 'Notion', 'Netlify'] },
-      { title: 'Other', list: ['Browsers', 'MacOS', 'Config files'] },
+      { title: 'Tools', list: ['VS Code', 'GitHub', 'Notion'] },
+      { title: 'Other', list: ['Browsers', 'Terminals', 'MacOS'] },
    ],
    projects: [
       { title: 'Suimiro', url: 'https://suimiro.me', desc: 'web blog', img: '/projects/suimiro.png' },
