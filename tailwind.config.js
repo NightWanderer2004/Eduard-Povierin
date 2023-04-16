@@ -11,6 +11,21 @@ module.exports = {
             'link-nav': 'var(--link-nav-color)',
             link: 'var(--link-color)',
          },
+         animation: {
+            fadeUp: 'fadeUp 550ms ease-out forwards',
+         },
+         keyframes: {
+            fadeUp: {
+               '0%': {
+                  opacity: 0,
+                  transform: 'translateY(15px)',
+               },
+               '100%': {
+                  opacity: 1,
+                  transform: 'translateY(0)',
+               },
+            },
+         },
       },
    },
    plugins: [],

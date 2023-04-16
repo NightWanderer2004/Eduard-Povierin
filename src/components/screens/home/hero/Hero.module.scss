@@ -14,7 +14,7 @@
       }
    }
    .photo {
-      @apply col-span-1 sm:col-span-2 bg-[url("/photo-bg.jpg")] dark:opacity-90 bg-no-repeat bg-cover overflow-hidden;
+      @apply col-span-1 sm:col-span-2 bg-[url("/photo-bg.jpg")] dark:opacity-90 bg-no-repeat bg-cover overflow-hidden animate-fadeUp sm:animate-none;
       img {
          @apply scale-[1.45] object-cover object-center w-full h-full;
       }

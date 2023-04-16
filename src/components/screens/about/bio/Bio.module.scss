@@ -4,7 +4,7 @@
       @apply text-[50px] mb-5 text-primary font-medium;
    }
    p {
-      @apply text-[20px] sm:text-[23px] font-medium sm:font-normal text-primary tracking-wide sm:tracking-normal leading-6 sm:leading-7 mb-10;
+      @apply text-[20px] sm:text-[23px] font-medium sm:font-normal text-primary tracking-wide sm:tracking-normal leading-6 sm:leading-7 mb-10 opacity-0 animate-fadeUp;
       &:last-child {
          @apply mb-0;
       }
