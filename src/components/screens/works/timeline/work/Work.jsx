@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import s from './Work.module.scss'
 
-const Work = ({ el }) => {
+const Work = ({ el, index }) => {
    const [inView, setInView] = useState(false)
    const elemRef = useRef(null)
 
@@ -27,7 +27,8 @@ const Work = ({ el }) => {
 
    return (
       <li ref={elemRef} className={`${s.item} ${inView ? s.inView : ''}`}>
-         <div className={s.content}>
+         {/* <li className={`${s.item} ${s.inView}`}> */}
+         <div className={s.content} style={{ transitionDelay: `${index * 0.24}s` }}>
             <p className={s.company}>
                {el.title} {el.company ? `at ${el.company}` : ''}
             </p>

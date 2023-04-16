@@ -2,32 +2,18 @@
    @apply relative mb-3 min-h-[150px];
    &.inView {
       .content {
-         @apply opacity-100 scale-100 text-primary border-primary border-[1px];
+         @apply opacity-100 scale-100;
       }
-      &::before {
-         @apply top-0 rounded-none -left-3 w-[50px] h-[1px] border-[0.5px];
-      }
-      &::after {
-         @apply opacity-0;
-      }
-   }
-   &::before,
-   &::after {
-      @apply rounded-full absolute transition-all ease-out;
-   }
-   &::before {
-      content: '';
-      @apply w-5 h-5 border-primary border-[1px] top-0 left-0;
-   }
-   &::after {
-      content: '';
-      @apply w-2 h-2 bg-primary top-[6.5px] left-[6.5px];
    }
    &:last-child {
       @apply mb-0;
    }
    .content {
-      @apply opacity-0 scale-50 origin-top-left p-5 rounded-[20px] rounded-tl-none transition-all ease-out;
+      @apply opacity-0 relative scale-[40%] origin-top-left p-5 text-primary rounded-[20px] rounded-tl-none border-primary border-[1px] transition-all duration-[275ms] delay-[80ms] ease-out;
+      &::before {
+         content: '';
+         @apply rounded-full absolute w-3 h-3 bg-primary -top-[5px] -left-[5px];
+      }
       .date {
          @apply font-medium text-lg sm:text-xl;
       }

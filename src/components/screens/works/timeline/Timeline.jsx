@@ -8,7 +8,7 @@ const Timeline = () => {
          <h2>Experience</h2>
          <ul className={s.list}>
             {work.map((el, i) => (
-               <Work key={i} el={el} />
+               <Work key={i} el={el} index={i} />
             ))}
          </ul>
       </div>
