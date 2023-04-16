@@ -27,8 +27,7 @@ const Work = ({ el, index }) => {
 
    return (
       <li ref={elemRef} className={`${s.item} ${inView ? s.inView : ''}`}>
-         {/* <li className={`${s.item} ${s.inView}`}> */}
-         <div className={s.content} style={{ transitionDelay: `${index * 0.24}s` }}>
+         <div className={s.content} style={{ transitionDelay: `${index * 0.2}s` }}>
             <p className={s.company}>
                {el.title} {el.company ? `at ${el.company}` : ''}
             </p>
