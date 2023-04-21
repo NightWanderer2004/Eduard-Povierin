@@ -21,7 +21,7 @@ const Layout = ({ title, description, children }) => {
          <Meta title={title} description={description} />
          <div className={`app flex flex-col min-h-screen overflow-hidden bg-background ${isDarkMode ? 'dark' : ''}`}>
             <Navbar />
-            <div className='container mx-auto px-3 flex-1 mt-36 sm:mt-[190px]'>{children}</div>
+            <div className='container mx-auto px-3 flex-1 mt-36 sm:mt-[190px] animate-fadeLeft'>{children}</div>
             <Footer />
          </div>
       </>

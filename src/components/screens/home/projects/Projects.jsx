@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Keyboard } from 'swiper'
 import 'swiper/scss'
-import 'swiper/scss/pagination'
 import { projects } from '@/data'
 import s from './Projects.module.scss'
 import Project from './Project'
@@ -29,7 +28,6 @@ const Projects = () => {
             slidesPerView={1.3}
             modules={[Keyboard]}
             keyboard={{ enabled: true }}
-            pagination={{ clickable: true }}
          >
             {projects.map(el => (
                <SwiperSlide key={el.title}>
