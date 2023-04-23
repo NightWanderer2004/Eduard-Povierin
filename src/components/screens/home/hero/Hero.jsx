@@ -16,7 +16,7 @@ const Hero = () => {
                   based in {location}
                </h1>
                <p>
-                  {getTerm(start)} - {spell(getTerm(start))} in web. <br /> Next.js developer, writer, and technology enthusiast.
+                  {getTerm(start)} {spell(getTerm(start))} in web. <br /> Next.js developer, writer, and technology enthusiast.
                </p>
             </div>
             <Social />
