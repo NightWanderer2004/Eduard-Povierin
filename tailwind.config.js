@@ -13,13 +13,13 @@ module.exports = {
          },
          animation: {
             fadeUp: 'fadeUp 550ms ease-out forwards',
-            fadeLeft: 'fadeLeft 300ms ease-out forwards',
+            fadeLeft: 'fadeLeft 330ms ease-out forwards',
          },
          keyframes: {
             fadeUp: {
                '0%': {
                   opacity: 0,
-                  transform: 'translateY(15px)',
+                  transform: 'translateY(8px)',
                },
                '100%': {
                   opacity: 1,
@@ -28,8 +28,8 @@ module.exports = {
             },
             fadeLeft: {
                '0%': {
-                  opacity: 0,
-                  transform: 'translateX(28px)',
+                  opacity: 0.6,
+                  transform: 'translateX(15px)',
                },
                '100%': {
                   opacity: 1,
