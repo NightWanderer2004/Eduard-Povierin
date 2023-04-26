@@ -31,9 +31,9 @@ module.exports = {
       { title: 'Actify', url: 'https://actify-you.netlify.app', desc: 'app for activity', img: '/projects/actify.png' },
       { title: 'Tokners', url: 'https://my-tokners.netlify.app', desc: 'landing page for crypto company', img: '/projects/tokners.png' },
    ],
-   myFavs: ['Japan', 'strategy games', 'anime', 'old apple devices', 'minimalism', 'music'],
+   myFavs: ['Japan', 'strategy games', 'anime', 'old apple devices', 'piano', 'music'],
    work: [
-      { title: 'Freelancer', date: 'apr 2021 - aug 2021', desc: 'making simple landing pages and fixes in HTML and CSS' },
+      { title: 'Freelancer', date: 'apr 2021 - aug 2021', desc: 'making simple landing pages and fixes in HTML, CSS and logos' },
       {
          title: 'Fullstack Trainee',
          company: 'ZenBit',
