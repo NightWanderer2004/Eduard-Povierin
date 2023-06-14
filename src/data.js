@@ -40,5 +40,11 @@ module.exports = {
          date: 'aug 2022 - oct 2022',
          desc: 'developing frontend and backend for own freelance platform',
       },
+      {
+         title: 'Content researcher',
+         company: 'Web-developer.in.ua',
+         date: 'may 2023 - now',
+         desc: 'translate articles into Ukrainian and search for interesting tools for web developers',
+      },
    ],
 }
