@@ -7,7 +7,7 @@ const Timeline = () => {
       <div className={s.timeline}>
          <h2>Experience</h2>
          <ul className={s.list}>
-            {work.map((el, i) => (
+            {work.reverse().map((el, i) => (
                <Work key={i} el={el} index={i} />
             ))}
          </ul>
