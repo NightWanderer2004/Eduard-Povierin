@@ -43,7 +43,7 @@ module.exports = {
       {
          title: 'Content researcher',
          company: 'Web-developer.in.ua',
-         date: 'may 2023 - now',
+         date: 'may 2023 - jun 2023',
          desc: 'translate articles into Ukrainian and search for interesting tools for web developers',
       },
    ],
