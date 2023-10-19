@@ -46,5 +46,10 @@ module.exports = {
          date: 'may 2023 - jun 2023',
          desc: 'translate articles into Ukrainian and search for interesting tools for web developers',
       },
+      {
+         title: 'Freelancer',
+         date: 'sep 2023 - now',
+         desc: 'developing landing pages and small projects for clients using NextJS',
+      },
    ],
 }
