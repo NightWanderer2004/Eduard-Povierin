@@ -20,18 +20,24 @@ module.exports = {
       },
    ],
    skills: [
-      { title: 'Prog. langs', list: ['Javascript / TS', 'C / C++', 'Python'] },
+      { title: 'Prog. langs', list: ['JS / TS', 'C / C++', 'Python'] },
       { title: 'Frontend', list: ['React+Redux', 'NextJS', 'TailwindCSS', '11ty'] },
-      { title: 'Backend', list: ['NodeJS', 'NestJS / Express', 'MongoDB'] },
-      { title: 'Tools', list: ['VS Code', 'GitHub', 'Notion'] },
+      { title: 'Backend', list: ['NestJS / Express', 'MongoDB / PostgreSQL', 'GraphQL'] },
+      { title: 'Tools', list: ['VS Code', 'GitHub', 'Notion', 'Docker'] },
       { title: 'Other', list: ['Browsers', 'Terminals', 'MacOS'] },
    ],
    projects: [
+      {
+         title: 'Beauty.Laboratorie',
+         url: 'https://cosmetcab.dp.ua/',
+         desc: 'landing page for cosmetology studio',
+         img: '/projects/beauty.laboratorie.png',
+      },
       { title: 'Suimiro', url: 'https://suimiro.me', desc: 'web blog', img: '/projects/suimiro.png' },
       { title: 'Actify', url: 'https://actify-you.netlify.app', desc: 'app for activity', img: '/projects/actify.png' },
       { title: 'Tokners', url: 'https://my-tokners.netlify.app', desc: 'landing page for crypto company', img: '/projects/tokners.png' },
    ],
-   myFavs: ['Japan', 'strategy games', 'anime', 'old apple devices', 'piano', 'music'],
+   myFavs: ['Japan', 'philosophy', 'anime', 'retro devices', 'piano', 'music'],
    work: [
       { title: 'Freelancer', date: 'apr 2021 - aug 2021', desc: 'making simple landing pages and fixes in HTML, CSS and logos' },
       {

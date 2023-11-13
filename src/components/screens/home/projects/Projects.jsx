@@ -20,7 +20,7 @@ const Projects = () => {
                   spaceBetween: 32,
                },
                1024: {
-                  slidesPerView: 3,
+                  slidesPerView: 3.3,
                   spaceBetween: 40,
                },
             }}
