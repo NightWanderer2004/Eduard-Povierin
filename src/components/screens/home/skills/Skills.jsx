@@ -7,7 +7,7 @@ const Skills = () => {
          <h2>Skills:</h2>
          <ul className={s.skillsList}>
             {skills.map(el => (
-               <li key={el.title} className={s.subList}>
+               <li key={el.title} className={s.list}>
                   <h3>{el.title}</h3>
                   <ul>
                      {el.list.map(el => (

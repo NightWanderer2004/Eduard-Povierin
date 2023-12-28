@@ -2,6 +2,7 @@ import Skills from '../home/skills/Skills'
 import Bio from './bio/Bio'
 import s from './About.module.scss'
 import Favs from './favs/Favs'
+import Environment from './env/Environment'
 
 const About = () => {
    return (
@@ -9,6 +10,7 @@ const About = () => {
          <Bio />
          <Favs />
          <Skills />
+         <Environment />
       </div>
    )
 }

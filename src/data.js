@@ -38,6 +38,13 @@ module.exports = {
       { title: 'Tokners', url: 'https://my-tokners.netlify.app', desc: 'landing page for crypto company', img: '/projects/tokners.png' },
    ],
    myFavs: ['Japan', 'philosophy', 'anime', 'retro devices', 'piano', 'music'],
+   myEnv: {
+      computer: 'Macbook Pro 2014 13"',
+      monitor: 'Xiaomi Monitor 1C 23.8"',
+      keyboard: 'Anne Pro 2 (brown switches)',
+      mouse: 'Logitech M171',
+      image: '/env.jpg',
+   },
    work: [
       { title: 'Freelancer', date: 'apr 2021 - aug 2021', desc: 'making simple landing pages and fixes in HTML, CSS and logos' },
       {
