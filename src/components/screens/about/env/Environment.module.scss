@@ -1,13 +1,12 @@
 .env {
    @apply mt-24;
    img {
-      @apply rounded-[20px];
+      @apply rounded-[20px] w-full xl:w-auto border-primary border grayscale;
    }
    h2 {
       @apply text-[50px] mb-5 text-primary font-medium;
    }
    .list {
-      // @apply grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5 sm:gap-3;
       @apply flex flex-col gap-5 sm:gap-3;
       .item {
          h3 {
