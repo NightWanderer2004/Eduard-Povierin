@@ -1,3 +1,1 @@
-This is my personal page.
-
-[link](https://ed-povierin.com/).
+This is my personal page, here is a [link](https://ed-povierin.com/).
