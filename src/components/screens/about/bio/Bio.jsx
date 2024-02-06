@@ -6,24 +6,18 @@ const Bio = () => {
          <h2>About Me</h2>
          <div className={s.info}>
             <p style={{ animationDelay: '0.1s' }}>
-               As a frontend developer who uses Next.js, I know a thing about creating sleek and stunning websites. I like to speed up my work process
-               and always try to configure my workspace in a better way. This includes tools such as terminals and IDEs.
+               I’m studying network programming at the university, I also like to create cool systems in conjunction with AI that simplify learning in
+               a group. <br /> I love startups and I want something like that myself try.
             </p>
             <p style={{ animationDelay: '0.2s' }}>
-               When I'm not studying ICT at university, I enjoy writing for blogs or tinkering with my beloved old Apple devices... or discovering new
-               and interesting tools for developing.
-               <br /> I pride myself on my talent for creating simple and clear sites.
+               I love mbti, ennegrams, tritypes and all that stuff (mine is INTP, 5w6, 593), I continually explore the depths of human psychology and
+               behavior.
             </p>
             <p style={{ animationDelay: '0.3s' }}>
-               If you're interested in working on projects with me, you can find me on{' '}
-               <a href='https://www.linkedin.com/in/eduard-povierin-44920a22a/' target='_blank'>
-                  LinkedIn
-               </a>{' '}
-               or write me a message on{' '}
+               If you want to know more about me, you can contact me on{' '}
                <a href='https://t.me/nightwanderer2004' target='_blank'>
                   Telegram
                </a>
-               . I'm always looking to collaborate and learn from others.
             </p>
          </div>
       </div>

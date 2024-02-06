@@ -6,7 +6,7 @@
    .list {
       @apply grid gap-5 sm:gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-flow-col;
       .item {
-         @apply flex items-center justify-center text-center p-[11px] sm:p-4 rounded-[20px] border-primary border-[1px] text-[20px] sm:text-[23px] font-medium sm:font-normal text-primary tracking-wide sm:tracking-normal;
+         @apply flex items-center justify-center text-center p-[11px] sm:p-4 rounded-[12px] border-primary border-[1px] text-[20px] sm:text-[23px] font-medium sm:font-normal text-primary tracking-wide sm:tracking-normal;
       }
    }
 }

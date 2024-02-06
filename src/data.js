@@ -3,11 +3,11 @@ module.exports = {
    start: new Date(2021, 8, 1),
    location: 'Kielce(Poland)',
    social: [
-      {
-         title: 'linkedIn',
-         icon: '/icons/linkedin.svg',
-         link: 'https://www.linkedin.com/in/eduard-povierin-44920a22a/',
-      },
+      // {
+      //    title: 'linkedIn',
+      //    icon: '/icons/linkedin.svg',
+      //    link: 'https://www.linkedin.com/in/eduard-povierin-44920a22a/',
+      // },
       {
          title: 'tel',
          icon: '/icons/telegram.svg',
@@ -52,12 +52,6 @@ module.exports = {
          company: 'ZenBit',
          date: 'aug 2022 - oct 2022',
          desc: 'developing frontend and backend for own freelance platform',
-      },
-      {
-         title: 'Content researcher',
-         company: 'Web-developer.in.ua',
-         date: 'may 2023 - jun 2023',
-         desc: 'translate articles into Ukrainian and search for interesting tools for web developers',
       },
       {
          title: 'Freelancer',

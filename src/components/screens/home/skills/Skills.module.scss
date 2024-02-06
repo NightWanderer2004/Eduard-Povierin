@@ -7,7 +7,7 @@
 .skillsList {
    @apply grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5 sm:gap-3;
    .list {
-      @apply border border-primary p-5 rounded-[20px] text-primary;
+      @apply border border-primary p-5 rounded-[12px] text-primary;
       h3 {
          @apply text-2xl sm:text-3xl font-medium mb-2;
       }

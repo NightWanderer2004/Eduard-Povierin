@@ -1,7 +1,7 @@
 .env {
    @apply mt-24;
    img {
-      @apply rounded-[20px] w-full xl:w-auto border-primary border grayscale;
+      @apply rounded-[12px] w-full xl:w-auto border-primary border grayscale;
    }
    h2 {
       @apply text-[50px] mb-5 text-primary font-medium;
@@ -12,7 +12,7 @@
          h3 {
             @apply text-2xl sm:text-3xl font-medium mb-2;
          }
-         @apply border border-primary p-5 rounded-[20px] text-primary text-lg sm:text-xl;
+         @apply border border-primary p-5 rounded-[12px] text-primary text-lg sm:text-xl;
       }
    }
 }

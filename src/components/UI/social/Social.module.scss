@@ -3,16 +3,10 @@
    &.isFooter {
       li {
          @apply border-background bg-background;
-         &:hover {
-            @apply shadow-[1px_1px_0_gray] md:shadow-[2px_2px_0_gray];
-         }
       }
    }
    li {
       @apply flex justify-center items-center border-primary border-[1px] rounded-full transition-shadow;
-      &:hover {
-         @apply shadow-[1px_1px_0_primary] md:shadow-[2px_2px_0_primary];
-      }
       a {
          @apply block w-full h-full p-[8px] md:p-[13.7px];
       }
