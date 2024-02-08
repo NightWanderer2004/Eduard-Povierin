@@ -42,8 +42,8 @@ module.exports = {
       computer: 'Macbook Pro 2014 13"',
       monitor: 'Xiaomi Monitor 1C 23.8"',
       keyboard: 'Anne Pro 2 (brown switches)',
-      mouse: 'Logitech M171',
-      image: '/env.jpg',
+      mouse: 'HP 280 Silent',
+      image: '/env2.jpg',
    },
    work: [
       { title: 'Freelancer', date: 'apr 2021 - aug 2021', desc: 'making simple landing pages and fixes in HTML, CSS and logos' },
