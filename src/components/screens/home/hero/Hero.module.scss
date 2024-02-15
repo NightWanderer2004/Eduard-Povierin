@@ -2,7 +2,7 @@
    @apply grid sm:grid-cols-5 gap-5 sm:gap-10;
    .info,
    .photo {
-      @apply rounded-[12px] border-[1px] border-primary;
+      @apply rounded-[12px] border-2 border-primary;
    }
    .info {
       @apply flex flex-col justify-between gap-[60px] px-9 sm:px-14 py-6 sm:py-10 col-span-1 sm:col-span-3;

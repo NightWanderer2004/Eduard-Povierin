@@ -1,5 +1,5 @@
 .navbar {
-   @apply py-3 fixed left-0 right-0 z-30 backdrop-blur-lg border-b-[1px] border-blur bg-blur;
+   @apply py-3 fixed left-0 right-0 z-30 backdrop-blur-lg border-b-2 border-blur bg-blur;
    &.expanded {
       @apply h-[135px];
    }

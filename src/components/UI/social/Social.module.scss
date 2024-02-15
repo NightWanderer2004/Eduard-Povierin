@@ -6,7 +6,7 @@
       }
    }
    li {
-      @apply flex justify-center items-center border-primary border-[1px] rounded-full transition-shadow;
+      @apply flex justify-center items-center border-primary border-2 rounded-full transition-shadow;
       a {
          @apply block w-full h-full p-[8px] md:p-[13.7px];
       }
