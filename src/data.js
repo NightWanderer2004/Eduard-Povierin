@@ -28,6 +28,12 @@ module.exports = {
    ],
    projects: [
       {
+         title: 'Valerii Vasianovych',
+         url: 'https://valerii-vasianovych.site',
+         desc: 'portfolio page for friend',
+         img: '/projects/valerii-vasianovych.png',
+      },
+      {
          title: 'Beauty.Laboratorie',
          url: 'https://cosmetcab.dp.ua/',
          desc: 'landing page for cosmetology studio',
