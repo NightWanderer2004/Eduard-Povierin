@@ -3,11 +3,6 @@ module.exports = {
    start: new Date(2021, 8, 1),
    location: 'Kielce(Poland)',
    social: [
-      // {
-      //    title: 'linkedIn',
-      //    icon: '/icons/linkedin.svg',
-      //    link: 'https://www.linkedin.com/in/eduard-povierin-44920a22a/',
-      // },
       {
          title: 'tel',
          icon: '/icons/telegram.svg',
@@ -43,7 +38,7 @@ module.exports = {
       { title: 'Actify', url: 'https://actify-you.netlify.app', desc: 'app for activity', img: '/projects/actify.png' },
       { title: 'Tokners', url: 'https://my-tokners.netlify.app', desc: 'landing page for crypto company', img: '/projects/tokners.png' },
    ],
-   myFavs: ['Japan', 'philosophy', 'anime', 'retro devices', 'piano', 'music'],
+   myFavs: ['Japan', 'philosophy', 'psychology', 'anime', 'MBTI', 'design'],
    myEnv: {
       computer: 'Macbook Pro 2014 13"',
       monitor: 'Xiaomi Monitor 1C 23.8"',
