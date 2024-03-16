@@ -10,8 +10,7 @@ const Bio = () => {
                a group. <br /> I love startups and I want something like that myself try.
             </p>
             <p style={{ animationDelay: '0.2s' }}>
-               I love mbti, ennegrams, tritypes and all that stuff (mine is INTP, 5w6, 593), I continually explore the depths of human psychology and
-               behavior.
+               I love mbti, ennegrams, tritypes and all that stuff (mine is INTP, 5w4, 549), I continually explore the depths of human psychology.
             </p>
             <p style={{ animationDelay: '0.3s' }}>
                If you want to know more about me, you can contact me on{' '}

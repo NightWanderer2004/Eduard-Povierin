@@ -18,8 +18,8 @@ module.exports = {
       { title: 'Prog. langs', list: ['JS / TS', 'C / C++', 'Python'] },
       { title: 'Frontend', list: ['React+Redux', 'NextJS', 'TailwindCSS', '11ty'] },
       { title: 'Backend', list: ['NestJS / Express', 'MongoDB / PostgreSQL', 'GraphQL'] },
-      { title: 'Tools', list: ['VS Code', 'GitHub', 'Notion', 'Docker'] },
-      { title: 'Other', list: ['Browsers', 'Terminals', 'MacOS'] },
+      { title: 'Tools', list: ['VS Code', 'GitHub', 'Notion'] },
+      { title: 'Other', list: ['Browsers', 'MacOS'] },
    ],
    projects: [
       {
