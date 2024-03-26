@@ -2,7 +2,7 @@
    @apply grid sm:grid-cols-5 gap-5 sm:gap-10;
    .info,
    .photo {
-      @apply rounded-[12px] border-2 border-primary;
+      @apply rounded-[12px] border-2 border-blur bg-blur text-primary;
    }
    .info {
       @apply flex flex-col justify-between gap-[60px] px-9 sm:px-14 py-6 sm:py-10 col-span-1 sm:col-span-3;
@@ -14,7 +14,7 @@
       }
    }
    .photo {
-      @apply col-span-1 sm:col-span-2 bg-[url("/photo-bg.jpg")] dark:opacity-90 bg-no-repeat bg-cover overflow-hidden animate-fadeUp sm:animate-none;
+      @apply col-span-1 sm:col-span-2 bg-no-repeat bg-cover overflow-hidden animate-fadeUp sm:animate-none;
       img {
          @apply scale-[1.45] object-cover object-center w-full h-full opacity-95;
       }

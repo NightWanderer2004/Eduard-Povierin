@@ -1,5 +1,5 @@
 .footer {
-   @apply mt-12 bg-primary dark:bg-white text-background;
+   @apply mt-12 bg-blur text-primary border-t border-blur backdrop-blur-[14px] relative z-40;
    .content {
       @apply container mx-auto px-3 flex flex-col lg:flex-row lg:justify-between lg:items-center py-6 md:py-9;
    }

@@ -7,7 +7,7 @@
 .project {
    @apply rounded-[12px];
    img {
-      @apply border-2 border-primary rounded-[12px] dark:opacity-90 pointer-events-none;
+      @apply border-2 border-blur rounded-[12px] pointer-events-none;
    }
    p {
       @apply text-xl text-primary font-medium;
