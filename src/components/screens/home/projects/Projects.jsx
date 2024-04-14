@@ -4,11 +4,12 @@ import 'swiper/scss'
 import { projects } from '@/data'
 import s from './Projects.module.scss'
 import Project from './Project'
+import Heading from '@/components/UI/Heading'
 
 const Projects = () => {
    return (
       <div className={s.projects}>
-         <h2>Projects:</h2>
+         <Heading>Projects:</Heading>
          <Swiper
             breakpoints={{
                320: {

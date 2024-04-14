@@ -4,6 +4,6 @@
       @apply container mx-auto px-3 flex flex-col lg:flex-row lg:justify-between lg:items-center py-6 md:py-9;
    }
    h2 {
-      @apply font-medium text-[60px] md:text-[90px] leading-[120%] mb-3 sm:mb-0 md:mb-6;
+      @apply drop-shadow-sm font-medium text-[60px] md:text-[90px] leading-[120%] mb-3 sm:mb-0 md:mb-6;
    }
 }

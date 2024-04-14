@@ -1,9 +1,10 @@
+import Heading from '@/components/UI/Heading'
 import s from './Bio.module.scss'
 
 const Bio = () => {
    return (
       <div className={s.bio}>
-         <h2>About Me</h2>
+         <Heading>About Me</Heading>
          <div className={s.info}>
             <p style={{ animationDelay: '0.1s' }}>
                I’m studying network programming at the university, I also like to create cool systems in conjunction with AI that simplify learning in

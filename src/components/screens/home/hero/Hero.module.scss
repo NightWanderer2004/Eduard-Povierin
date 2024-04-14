@@ -7,10 +7,10 @@
    .info {
       @apply flex flex-col justify-between gap-[60px] px-9 sm:px-14 py-6 sm:py-10 col-span-1 sm:col-span-3;
       h1 {
-         @apply text-[36px] sm:text-[40px] font-medium text-primary leading-10 tracking-wide mb-5;
+         @apply drop-shadow-sm text-[36px] sm:text-[40px] font-medium text-primary leading-10 tracking-wide mb-5;
       }
       p {
-         @apply text-[14px] sm:text-[16px] font-medium sm:font-normal text-primary leading-5;
+         @apply drop-shadow-sm text-[14px] sm:text-[16px] font-medium sm:font-normal text-primary leading-5;
       }
    }
    .photo {

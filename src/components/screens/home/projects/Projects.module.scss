@@ -1,8 +1,5 @@
 .projects {
    @apply mt-24;
-   h2 {
-      @apply text-[50px] mb-5 text-primary font-medium;
-   }
 }
 .project {
    @apply rounded-[12px];
@@ -10,6 +7,6 @@
       @apply border-2 border-blur rounded-[12px] pointer-events-none;
    }
    p {
-      @apply text-xl text-primary font-medium;
+      @apply drop-shadow-sm text-xl text-primary font-medium;
    }
 }

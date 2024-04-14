@@ -18,7 +18,7 @@ module.exports = {
       { title: 'Prog. langs', list: ['JS / TS', 'C / C++', 'Python'] },
       { title: 'Frontend', list: ['React+Redux', 'NextJS', 'TailwindCSS', '11ty'] },
       { title: 'Backend', list: ['NestJS / Express', 'MongoDB / PostgreSQL', 'GraphQL'] },
-      { title: 'Tools', list: ['VS Code', 'GitHub', 'Notion'] },
+      { title: 'Tools', list: ['VS Code', 'GitHub', 'Notion', 'GPT'] },
       { title: 'Other', list: ['Browsers', 'MacOS'] },
    ],
    projects: [
@@ -40,11 +40,11 @@ module.exports = {
    ],
    myFavs: ['Japan', 'philosophy', 'psychology', 'anime', 'MBTI', 'design'],
    myEnv: {
-      computer: 'Macbook Pro 2014 13"',
+      computer: 'Macbook Air M1 13"',
       monitor: 'Xiaomi Monitor 1C 23.8"',
       keyboard: 'Anne Pro 2 (brown switches)',
       mouse: 'HP 280 Silent',
-      image: '/env2.jpg',
+      image: '/env3.jpg',
    },
    work: [
       { title: 'Freelancer', date: 'apr 2021 - aug 2021', desc: 'making simple landing pages and fixes in HTML, CSS and logos' },

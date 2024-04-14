@@ -3,16 +3,13 @@
    img {
       @apply rounded-[12px] lg:w-[65%] border-blur border-2 grayscale;
    }
-   h2 {
-      @apply text-[50px] mb-5 text-primary font-medium;
-   }
    .list {
       @apply flex flex-col gap-5 sm:gap-3;
       .item {
          h3 {
-            @apply text-2xl sm:text-3xl font-medium mb-2;
+            @apply drop-shadow-sm text-2xl sm:text-3xl font-medium mb-2;
          }
-         @apply border-2 border-blur bg-blur p-5 rounded-[12px] text-primary text-lg sm:text-xl;
+         @apply drop-shadow-sm border-2 border-blur bg-blur p-5 rounded-[12px] text-primary text-lg sm:text-xl;
       }
    }
 }
