@@ -5,7 +5,7 @@ import { myFavs } from '@/data'
 const Favs = () => {
    return (
       <div className={s.favs}>
-         <Heading>My favs:</Heading>
+         <Heading>My favs</Heading>
          <ul className={s.list}>
             {myFavs.map(el => (
                <li key={el} className={s.item}>

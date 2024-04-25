@@ -8,7 +8,7 @@ export default function Environment() {
 
    return (
       <div className={s.env}>
-         <Heading>My environment:</Heading>
+         <Heading>My environment</Heading>
          <div className='flex flex-col lg:flex-row lg:items-start gap-5 lg:gap-3'>
             <Image src={image} width={1000} height={600} alt='My environment' />
             <ul className={s.list}>

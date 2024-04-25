@@ -8,10 +8,10 @@ const Bio = () => {
          <div className={s.info}>
             <p style={{ animationDelay: '0.1s' }}>
                I’m studying network programming at the university, I also like to create cool systems in conjunction with AI that simplify learning in
-               a group. <br /> I love startups and I want something like that myself try.
+               a group. <br /> I love startups and I want something like that myself try
             </p>
             <p style={{ animationDelay: '0.2s' }}>
-               I love mbti, ennegrams, tritypes and all that stuff (mine is INTP, 5w4, 549), I continually explore the depths of human psychology.
+               I love mbti, ennegrams, tritypes and all that stuff (mine is INTP, 5w4, 549), I continually explore the depths of human psychology
             </p>
             <p style={{ animationDelay: '0.3s' }}>
                If you want to know more about me, you can contact me on{' '}

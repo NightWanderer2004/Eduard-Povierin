@@ -5,7 +5,7 @@ import { skills } from '@/data'
 const Skills = () => {
    return (
       <div className={s.skills}>
-         <Heading>Skills:</Heading>
+         <Heading>Skills</Heading>
          <ul className={s.skillsList}>
             {skills.map(el => (
                <li key={el.title} className={s.list}>

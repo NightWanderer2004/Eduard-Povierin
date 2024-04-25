@@ -9,7 +9,7 @@ module.exports = {
             blur: 'var(--blur-color)',
             primary: 'var(--text-color)',
             'link-nav': 'var(--link-nav-color)',
-            link: 'var(--link-colora)',
+            link: 'var(--link-color)',
          },
          animation: {
             fadeUp: 'fadeUp 550ms ease-out forwards',

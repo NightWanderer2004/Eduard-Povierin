@@ -10,7 +10,7 @@
       @apply sm:hidden invert-[1] opacity-95;
    }
    .name {
-      @apply text-[24px] sm:text-[28px] font-medium text-primary leading-8;
+      @apply text-[24px] sm:text-[28px] font-medium text-primary leading-8 drop-shadow-sm;
    }
 }
 .navLinks {
@@ -19,7 +19,7 @@
       @apply flex;
    }
    a {
-      @apply underline-offset-4 hover:underline;
+      @apply underline-offset-4 hover:underline drop-shadow-sm;
       &.active {
          @apply text-primary;
       }

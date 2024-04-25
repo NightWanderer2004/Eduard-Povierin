@@ -9,7 +9,7 @@ import Heading from '@/components/UI/Heading'
 const Projects = () => {
    return (
       <div className={s.projects}>
-         <Heading>Projects:</Heading>
+         <Heading>Projects</Heading>
          <Swiper
             breakpoints={{
                320: {
