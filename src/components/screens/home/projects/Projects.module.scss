@@ -2,7 +2,7 @@
    @apply mt-24;
 }
 .project {
-   @apply rounded-[12px];
+   @apply rounded-[12px] drop-shadow-sm;
    img {
       @apply border-2 border-blur rounded-[12px] pointer-events-none;
    }

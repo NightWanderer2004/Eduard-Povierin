@@ -22,7 +22,7 @@ const Hero = () => {
             <Social />
          </div>
          <div className={s.photo}>
-            <Image src='/myPhoto.png' alt='Eduard' width='1316' height='1210' priority />
+            <Image src='/myPhoto.jpg' alt='Eduard' width='1316' height='1210' priority />
          </div>
       </div>
    )
