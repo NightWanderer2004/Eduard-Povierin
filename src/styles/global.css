@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-   --bg-color: #b8d2ff;
+   --bg-color: #a0bbff;
    --blur-color: rgba(255, 255, 255, 0.15);
    --text-color: rgba(255, 255, 255, 0.95);
    --link-color: #8599ee;
