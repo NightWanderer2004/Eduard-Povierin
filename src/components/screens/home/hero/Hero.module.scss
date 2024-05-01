@@ -16,7 +16,7 @@
    .photo {
       @apply col-span-1 sm:col-span-3 lg:col-span-2 overflow-hidden drop-shadow-sm;
       img {
-         @apply scale-110 -rotate-3 object-cover object-center w-full h-full opacity-85;
+         @apply scale-110 -rotate-3 object-cover object-center w-full h-full opacity-85 mix-blend-multiply;
       }
    }
 }
