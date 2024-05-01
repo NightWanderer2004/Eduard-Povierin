@@ -31,7 +31,7 @@ module.exports = {
       {
          title: 'Beauty.Laboratorie',
          url: 'https://cosmetcab.dp.ua/',
-         desc: 'landing page for cosmetology studio',
+         desc: 'site for cosmetology studio',
          img: '/projects/beauty.laboratorie.png',
       },
       { title: 'Suimiro', url: 'https://suimiro.me', desc: 'web blog', img: '/projects/suimiro.png' },
