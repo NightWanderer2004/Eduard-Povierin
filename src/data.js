@@ -23,6 +23,12 @@ module.exports = {
    ],
    projects: [
       {
+         title: 'Fancy MBTI',
+         url: 'https://fancy-mbti.com',
+         desc: 'AI to help with well-being',
+         img: '/projects/fancy-mbti.png',
+      },
+      {
          title: 'Valerii Vasianovych',
          url: 'https://valerii-vasianovych.site',
          desc: 'portfolio page for friend',
