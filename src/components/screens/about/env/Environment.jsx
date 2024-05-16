@@ -8,9 +8,9 @@ export default function Environment() {
 
    return (
       <div className={s.env}>
-         <Heading>My environment</Heading>
-         <div className='flex flex-col lg:flex-row lg:items-start gap-5 lg:gap-3'>
-            <Image src={image} width={1000} height={600} alt='My environment' />
+         <Heading>My desktop</Heading>
+         <div className='grid lg:grid-cols-3 gap-5 lg:gap-3'>
+            <Image className='lg:col-span-2' src={image} width={1000} height={600} alt='My desktop' />
             <ul className={s.list}>
                <li className={s.item}>
                   <h3>Computer</h3> {computer}

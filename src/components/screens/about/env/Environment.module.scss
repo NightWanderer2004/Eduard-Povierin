@@ -1,10 +1,10 @@
 .env {
    @apply mt-24;
    img {
-      @apply rounded-[12px] lg:w-[65%] border-blur border-2 grayscale;
+      @apply rounded-[12px] border-blur border-2 grayscale opacity-90;
    }
    .list {
-      @apply flex flex-col gap-5 sm:gap-3;
+      @apply flex flex-col sm:flex-row lg:flex-col gap-5 sm:gap-3;
       .item {
          h3 {
             @apply drop-shadow-sm text-2xl sm:text-3xl font-medium mb-2;

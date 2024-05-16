@@ -3,7 +3,7 @@ import About from '@/components/screens/about/About'
 
 const AboutPage = () => {
    return (
-      <Layout title='Eduard Povierin | about' description='Eduard Povierin bio page'>
+      <Layout title='Eduard Povierin | about' description='About Eduard Povierin'>
          <About />
       </Layout>
    )
