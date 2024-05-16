@@ -46,7 +46,7 @@ module.exports = {
    ],
    myFavs: ['Japan', 'philosophy', 'psychology', 'anime', 'MBTI', 'design'],
    myEnv: {
-      computer: 'Macbook Air M1 13"',
+      computer: 'Macbook Air M1',
       monitor: 'Xiaomi Monitor 1C 23.8"',
       keyboard: 'Anne Pro 2 (brown switches)',
       mouse: 'HP 280 Silent',
@@ -61,9 +61,9 @@ module.exports = {
          desc: 'developing frontend and backend for own freelance platform',
       },
       {
-         title: 'Freelancer',
+         title: '#BuildInPublic',
          date: 'sep 2023 - now',
-         desc: 'developing landing pages and small projects for clients using NextJS',
+         desc: 'working as a solo developer, I create indie projects using NextJS. My focus is on sleek design with efficient functionality',
       },
    ],
 }
