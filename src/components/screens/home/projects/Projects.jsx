@@ -27,12 +27,13 @@ const Projects = () => {
             }}
             spaceBetween={24}
             slidesPerView={1.3}
+            slidesPerGroup={2}
             modules={[Keyboard]}
             keyboard={{ enabled: true }}
          >
             {projects.map(el => (
                <SwiperSlide key={el.title}>
-                  <Project title={el.title} img={el.img} url={el.url} desc={el.desc} />
+                  <Project title={el.title} img={el.img} url={el.url} desc={el.desc} info={el.info} />
                </SwiperSlide>
             ))}
          </Swiper>

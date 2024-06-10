@@ -2,9 +2,15 @@
    @apply mt-24;
 }
 .project {
-   @apply rounded-[12px] drop-shadow-sm;
-   img {
-      @apply border-2 border-blur rounded-[12px] pointer-events-none;
+   @apply rounded-[12px] drop-shadow-sm relative;
+   .info {
+      @apply relative overflow-hidden;
+      img {
+         @apply border-2 border-blur rounded-[12px] pointer-events-none;
+      }
+      p {
+         @apply absolute bottom-0 left-0 right-0 p-4 mx-0.5 border-t-[1.5px] border-black/75 rounded-t-xl shadow-none bg-white rounded-b-[12px] text-black text-lg font-normal;
+      }
    }
    p {
       @apply drop-shadow-sm text-xl text-primary font-medium;
