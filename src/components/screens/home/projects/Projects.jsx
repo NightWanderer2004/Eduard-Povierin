@@ -17,14 +17,17 @@ const Projects = () => {
                   spaceBetween: 24,
                },
                768: {
-                  slidesPerGroup: 2,
                   slidesPerView: 2.3,
                   spaceBetween: 28,
                },
                1024: {
-                  slidesPerGroup: 2,
                   slidesPerView: 3.3,
                   spaceBetween: 32,
+               },
+               1440: {
+                  slidesPerGroup: 3,
+                  slidesPerView: 4.3,
+                  spaceBetween: 36,
                },
             }}
             spaceBetween={24}

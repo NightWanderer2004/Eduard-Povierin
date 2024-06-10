@@ -6,10 +6,12 @@ import { ShaderGradientCanvas, ShaderGradient } from 'shadergradient'
 import * as reactSpring from '@react-spring/three'
 import * as drei from '@react-three/drei'
 import * as fiber from '@react-three/fiber'
-import { motion } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
+import { useRouter } from 'next/router'
 
 const Layout = ({ title, description, children }) => {
    const [isDarkMode, setIsDarkMode] = useState(false)
+   const { pathname } = useRouter()
 
    useEffect(() => {
       const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
@@ -42,14 +44,18 @@ const Layout = ({ title, description, children }) => {
          <div className='bg-background min-h-screen w-screen fixed z-0 top-0 left-0'></div>
          <div className='app relative flex flex-col min-h-screen overflow-hidden'>
             <Navbar />
-            <motion.main
-               initial={{ opacity: 0.4, x: 40 }}
-               animate={{ opacity: 1, x: 0 }}
-               transition={{ duration: 0.36, type: 'tween', ease: 'easeOut' }}
-               className='container mx-auto px-3 flex-1 mt-36 sm:mt-[190px] z-10 relative'
-            >
-               {children}
-            </motion.main>
+            <AnimatePresence mode='wait'>
+               <motion.main
+                  key={pathname}
+                  initial={{ opacity: 0.4, x: 50 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -50 }}
+                  transition={{ duration: 0.36, ease: 'backOut' }}
+                  className='container mx-auto px-3 flex-1 mt-36 sm:mt-[190px] z-10 relative'
+               >
+                  {children}
+               </motion.main>
+            </AnimatePresence>
             <Footer />
          </div>
       </>

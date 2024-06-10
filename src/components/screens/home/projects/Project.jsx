@@ -12,7 +12,7 @@ const Project = ({ title, img, url, desc, info }) => {
                      rest: { y: '100%', opacity: 0 },
                      hover: { y: 0, opacity: 1 },
                   }}
-                  transition={{ duration: 0.35, ease: 'backOut' }}
+                  transition={{ duration: 0.35, type: 'spring', stiffness: 255, damping: 25 }}
                >
                   {info}
                </motion.p>
