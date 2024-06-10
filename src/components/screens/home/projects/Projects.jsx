@@ -17,17 +17,19 @@ const Projects = () => {
                   spaceBetween: 24,
                },
                768: {
+                  slidesPerGroup: 2,
                   slidesPerView: 2.3,
                   spaceBetween: 28,
                },
                1024: {
+                  slidesPerGroup: 2,
                   slidesPerView: 3.3,
                   spaceBetween: 32,
                },
             }}
             spaceBetween={24}
             slidesPerView={1.3}
-            slidesPerGroup={2}
+            slidesPerGroup={1}
             modules={[Keyboard]}
             keyboard={{ enabled: true }}
          >
