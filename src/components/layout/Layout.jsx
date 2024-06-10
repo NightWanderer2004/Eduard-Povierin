@@ -7,11 +7,9 @@ import * as reactSpring from '@react-spring/three'
 import * as drei from '@react-three/drei'
 import * as fiber from '@react-three/fiber'
 import { AnimatePresence, motion } from 'framer-motion'
-import { useRouter } from 'next/router'
 
 const Layout = ({ title, description, children }) => {
    const [isDarkMode, setIsDarkMode] = useState(false)
-   const { pathname } = useRouter()
 
    useEffect(() => {
       const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
@@ -46,7 +44,6 @@ const Layout = ({ title, description, children }) => {
             <Navbar />
             <AnimatePresence mode='wait'>
                <motion.main
-                  key={pathname}
                   initial={{ opacity: 0.4, x: 50 }}
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -50 }}
