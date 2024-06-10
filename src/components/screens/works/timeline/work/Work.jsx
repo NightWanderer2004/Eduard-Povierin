@@ -1,40 +1,23 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
+import { motion } from 'framer-motion'
 import s from './Work.module.scss'
 
 const Work = ({ el, index }) => {
-   const [inView, setInView] = useState(false)
-   const elemRef = useRef(null)
-
-   const options = {
-      rootMargin: '0px',
-      threshold: 1,
-   }
-
-   useEffect(() => {
-      const observer = new IntersectionObserver(entries => {
-         entries.forEach(entry => {
-            if (entry.isIntersecting) setInView(true)
-            else setInView(false)
-         })
-      }, options)
-
-      if (elemRef.current) observer.observe(elemRef.current)
-
-      return () => {
-         if (elemRef.current) observer.unobserve(elemRef.current)
-      }
-   }, [])
-
    return (
-      <li ref={elemRef} className={`${s.item} ${inView ? s.inView : ''}`}>
-         <div className={s.content} style={{ transitionDelay: `${index * 0.12}s` }}>
+      <motion.li
+         className={s.item}
+         initial={{ opacity: 0, y: 50, scale: 0.4, originX: 0, originY: -1 }}
+         whileInView={{ opacity: 1, y: 0, scale: 1 }}
+         transition={{ duration: 0.3, delay: index * 0.08 }}
+      >
+         <div className={s.content}>
             <p className={s.company}>
                {el.title} {el.company ? `at ${el.company}` : ''}
             </p>
             <p className={s.date}>{el.date}</p>
             <p className={s.desc}>{el.desc}</p>
          </div>
-      </li>
+      </motion.li>
    )
 }
 

@@ -9,8 +9,8 @@ const Project = ({ title, img, url, desc, info }) => {
             <motion.div className={s.info}>
                <motion.p
                   variants={{
-                     rest: { y: '100%' },
-                     hover: { y: 0 },
+                     rest: { y: '100%', opacity: 0 },
+                     hover: { y: 0, opacity: 1 },
                   }}
                   transition={{ duration: 0.35, ease: 'backOut' }}
                >
