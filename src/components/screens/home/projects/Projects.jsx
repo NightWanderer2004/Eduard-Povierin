@@ -11,7 +11,6 @@ const Projects = () => {
             className={`${s['osbb']}`}
             initial={{ scale: 0.85, rotate: 1 }}
             whileHover={{ scale: 0.95, rotate: 2 }}
-            whileTap={{ scale: 0.95, rotate: 2 }}
             transition={{ duration: 0.4, ease: 'backOut' }}
             title={projects[0].title}
             img={projects[0].img}
@@ -21,7 +20,6 @@ const Projects = () => {
             className={`${s['fancy-mbti']}`}
             initial={{ scale: 0.8, rotate: -5 }}
             whileHover={{ scale: 0.9, rotate: -3 }}
-            whileTap={{ scale: 0.9, rotate: -3 }}
             transition={{ duration: 0.4, ease: 'backOut' }}
             title={projects[1].title}
             img={projects[1].img}
@@ -32,7 +30,6 @@ const Projects = () => {
             isMobile={false}
             initial={{ scale: 0.8, rotate: 2 }}
             whileHover={{ scale: 0.9, rotate: -2 }}
-            whileTap={{ scale: 0.9, rotate: -2 }}
             transition={{ duration: 0.4, ease: 'backOut' }}
             title={projects[2].title}
             img={projects[2].img}
@@ -43,7 +40,6 @@ const Projects = () => {
             isMobile={false}
             initial={{ scale: 0.7, rotate: -4 }}
             whileHover={{ scale: 0.8, rotate: -2 }}
-            whileTap={{ scale: 0.8, rotate: -2 }}
             transition={{ duration: 0.4, ease: 'backOut' }}
             title={projects[3].title}
             img={projects[3].img}
