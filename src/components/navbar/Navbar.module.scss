@@ -1,14 +1,14 @@
 .navbar {
-   @apply py-3 fixed left-0 right-0 z-30 backdrop-blur-[14px] border-b-2 border-blur bg-blur;
+   @apply py-5 fixed max-w-6xl mx-auto left-3 right-3 top-3 z-30 backdrop-blur-[14px] border-2 border-blur bg-blur rounded-xl;
    .content {
-      @apply container px-3 mx-auto flex justify-between items-center;
+      @apply flex justify-between items-center;
    }
-   .name {
-      @apply text-[24px] sm:text-[28px] font-medium text-primary leading-8 drop-shadow-sm hover:underline;
+   .logo {
+      @apply absolute -top-1 right-0 md:right-3 scale-125;
    }
 }
 .navLinks {
-   @apply px-3 flex justify-end items-center w-full gap-[44px] text-[26px] sm:text-[28px] font-medium text-link-nav;
+   @apply px-3 flex items-center w-full gap-[44px] text-[26px] sm:text-[28px] font-medium text-link-nav;
    a {
       @apply underline-offset-4 hover:underline drop-shadow-sm;
       &.active {

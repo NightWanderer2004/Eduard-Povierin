@@ -1,18 +1,24 @@
 .projects {
-   @apply mt-24;
+   @apply mt-24 lg:mt-44 h-[1470px] md:h-auto relative;
 }
 .project {
-   @apply drop-shadow-sm relative;
-   .info {
-      @apply relative overflow-hidden;
-      img {
-         @apply border-2 border-blur rounded-[12px] pointer-events-none;
-      }
-      p {
-         @apply absolute bottom-0 left-0 right-0 p-4 mx-0.5 rounded-t-xl bg-white rounded-b-[12px] text-background text-lg font-normal;
-      }
+   @apply bg-white border-2 border-blur drop-shadow-lg;
+   &.osbb {
+      @apply md:w-[390px] mx-auto relative md:left-[100px] lg:left-[60px] md:bottom-[15px];
    }
-   p {
-      @apply drop-shadow-sm text-xl text-primary font-medium;
+   &.fancy-mbti {
+      @apply absolute w-[340px] md:w-[390px] top-[430px] md:top-[130px] -left-[20px] lg:left-[120px] z-20;
+   }
+   &.mbti-days {
+      @apply absolute top-[975px] md:top-[650px] lg:top-[650px] -left-[60px] md:left-[225px] lg:left-[340px] w-[480px] lg:w-[525px] z-30;
+   }
+   &.vv {
+      @apply absolute top-[1225px] md:top-[420px] lg:top-[380px] -left-[50px] md:left-[320px] lg:left-[565px] w-[465px] lg:w-[535px] z-30;
+   }
+}
+.divider {
+   @apply text-primary flex justify-center items-center gap-5 mt-10 absolute -bottom-[70px] w-full;
+   span {
+      @apply bg-blur w-[100px] h-[2px];
    }
 }

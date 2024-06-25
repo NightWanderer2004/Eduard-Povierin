@@ -7,8 +7,8 @@ const Favs = () => {
       <div className={s.favs}>
          <Heading>My favs</Heading>
          <ul className={s.list}>
-            {myFavs.map(el => (
-               <li key={el} className={s.item}>
+            {myFavs.map((el, i) => (
+               <li key={i} className={s.item}>
                   {el}
                </li>
             ))}

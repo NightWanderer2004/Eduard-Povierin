@@ -2,25 +2,26 @@ import Image from 'next/image'
 import s from './Projects.module.scss'
 import { motion } from 'framer-motion'
 
-const Project = ({ title, img, url, desc, info }) => {
+const Project = ({ isMobile = true, title, img, url, ...props }) => {
    return (
-      <motion.li className={s.project} initial='rest' whileHover='hover' animate='rest'>
+      <motion.div
+         style={{ borderRadius: isMobile ? '32px' : '24px' }}
+         className={`${s.project} ${props.className}`}
+         initial={props.initial}
+         whileHover={props.whileHover}
+         transition={props.transition}
+      >
+         {isMobile && <Image src='/iphone_bar.png' width='390' height='44' />}
          <a href={url} target='_blank'>
-            <motion.div className={s.info}>
-               <motion.p
-                  variants={{
-                     rest: { y: '100%', opacity: 0 },
-                     hover: { y: 0, opacity: 1 },
-                  }}
-                  transition={{ duration: 0.35, type: 'spring', stiffness: 255, damping: 25 }}
-               >
-                  {info}
-               </motion.p>
-               <Image src={img} alt={title} width='828' height='1438' />
-            </motion.div>
-            <p>{desc}</p>
+            <Image
+               className={`${isMobile ? 'rounded-b-[32px]' : 'rounded-[24px]'} pointer-events-none`}
+               src={img}
+               alt={title}
+               width={isMobile ? 390 : 800}
+               height='1600'
+            />
          </a>
-      </motion.li>
+      </motion.div>
    )
 }
 

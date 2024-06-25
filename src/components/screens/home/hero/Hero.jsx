@@ -11,18 +11,18 @@ const Hero = () => {
          <div className={s.info}>
             <div>
                <h1>
-                  Hi, I'm Eduard! <br />
-                  Web developer <br />
-                  based in {location}
+                  Hi, I'm Eduard! <br />I create functional and enjoyable things with a focus on creative thinking, simplicity, and efficiency
                </h1>
                <p>
-                  {getTerm(start)} {spell(getTerm(start))} in web. <br /> Next.js developer
+                  Fullstack develoer / Designer / Thinker
+                  <br />
+                  {getTerm(start)} {spell(getTerm(start))} in web
                </p>
             </div>
             <Social />
          </div>
          <div className={s.photo}>
-            <Image src='/myPhoto.jpg' alt='Eduard' width='1316' height='1210' priority />
+            <Image className={s.me} src='/myPhoto.jpg' alt='Eduard' width='1316' height='1210' priority />
          </div>
       </div>
    )

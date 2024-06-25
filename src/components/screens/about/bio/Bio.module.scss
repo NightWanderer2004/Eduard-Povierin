@@ -1,7 +1,7 @@
 .bio {
    @apply mt-24;
    p {
-      @apply drop-shadow-sm text-[20px] sm:text-[23px] font-medium sm:font-normal text-primary tracking-wide leading-6 sm:leading-7 mb-10 opacity-0 animate-fadeUp;
+      @apply drop-shadow-sm text-[20px] sm:text-[23px] font-medium sm:font-normal text-primary tracking-wide leading-6 sm:leading-7 mb-10;
       &:last-child {
          @apply mb-0;
       }

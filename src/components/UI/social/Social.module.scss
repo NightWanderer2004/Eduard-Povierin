@@ -11,7 +11,7 @@
          @apply block w-full h-full p-1;
       }
       img {
-         @apply w-8 lg:w-10 h-8 lg:h-10;
+         @apply w-8 lg:w-10 h-8 lg:h-10 flex items-center justify-center;
       }
       &.tel img {
          @apply relative right-[2px];
