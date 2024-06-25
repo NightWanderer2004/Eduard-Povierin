@@ -27,7 +27,7 @@ const Layout = ({ title, description, children }) => {
                initial={{ opacity: 0.4, x: 50 }}
                animate={{ opacity: 1, x: 0 }}
                transition={{ duration: 0.36, ease: 'backOut' }}
-               className='container max-w-6xl mx-auto px-3 lg:px-0 flex-1 mt-36 mb-20 sm:mt-[120px] z-10 relative'
+               className='container max-w-6xl mx-auto px-3 xl:px-0 flex-1 mt-36 mb-20 sm:mt-[120px] z-10 relative'
             >
                {children}
             </motion.main>
