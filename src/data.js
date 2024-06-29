@@ -27,7 +27,7 @@ module.exports = {
    ],
    projects: [
       {
-         url: 'https://dom-osbb.netlify.app',
+         url: 'https://x.com/night2004_/status/1803084927115682160',
          desc: 'app for checking apartment dues',
          img: '/projects/dom-osbb.png',
       },
